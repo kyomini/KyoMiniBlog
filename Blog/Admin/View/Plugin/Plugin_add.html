@@ -1,0 +1,48 @@
+<include file="Public:Header" />
+<body>
+<include file="Public:Nav" />
+<div class="container"> 
+  
+  <div class="page-header">
+    <h3>增加插件</h3> 
+  </div>
+  <div class="MiniBox2">
+    <form role="form" method="post" action="{:U('add')}">
+      <input type="text" class="form-control miniinput" placeholder="插件名称" name="name">
+      <input type="text" class="form-control miniinput" placeholder="插件文件位置"  name="file" value="__ROOT__/Home/PlugIns/Widget/Name.php">
+      <input type="text" class="form-control miniinput" placeholder="插件说明"   name="description" >
+      <input type="text" class="form-control miniinput" placeholder="插件作者"  name="author" >
+      <input type="text" class="form-control miniinput" placeholder="插件版本" name="version" >
+      <button type="submit" class="btn btn-info minibtn">增加</button>
+    </form>
+  </div>
+  
+  <!--内容结束--> 
+  <include file="Public:Copy" /> </div>
+<script>
+$(function(){
+if(!placeholderSupport()){   // 判断浏览器是否支持 placeholder
+    $('[placeholder]').focus(function() {
+        var input = $(this);
+        if (input.val() == input.attr('placeholder')) {
+            input.val('');
+            input.removeClass('placeholder');
+        }
+    }).blur(function() {
+        var input = $(this);
+        if (input.val() == '' || input.val() == input.attr('placeholder')) {
+            input.addClass('placeholder');
+            input.val(input.attr('placeholder'));
+        }
+    }).blur();
+};
+})
+function placeholderSupport() {
+    return 'placeholder' in document.createElement('input');
+}
+
+
+
+
+</script>
+</html>

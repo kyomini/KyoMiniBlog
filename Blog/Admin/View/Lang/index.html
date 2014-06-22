@@ -1,0 +1,42 @@
+<include file="Public:header" />
+<body>
+<include file="Public:nav" /> <span id="result"></span>
+<div class="container">
+  <div class="page-header">
+    <h3>{$Think.lang._Language_}</h3>
+  </div>
+  <form class="form-horizontal" role="form" method="post" action="{:U('Update')}" id="forms">
+    <div class="MiniBox2">
+      <label for="exampleInputEmail1">默认语言</label>
+      <input type="text" class="form-control miniinput" value="{$Think.config.LANG_LIST}" disabled>
+      <label for="exampleInputEmail1">修改语言</label>
+      <select class="form-control miniinput2" name="LANG_LIST">
+        <option value="zh-cn" >简体中文</option>
+        <option value="zh-tw">繁体中文</option>
+        <option value="jp">日本语</option>
+        <option value="en-us">Enlish</option>
+      </select>
+      <button type="submit" class="btn btn-info " >更新语言</button>
+    </div>
+  </form>
+  <include file="Public:Copy" /> </div>
+<script src="[!Public]Js/jquery.form.js"></script> 
+<!--<script language="javascript" type="text/javascript">
+	$('#forms').ajaxForm({
+	  success:function(data){
+		  var Mini = "";
+		  if(data.status == 1){
+			 Mini = "<div class='alert alert-success'>"+data.info+"</div>";
+			 }else{
+				 Mini = "<div class='alert alert-danger'>"+data.info+"</div>";
+				 }
+		  $('#result').html(Mini).show();
+		  location=location;
+		  setTimeout(function(){$('#result').html('').fadeOut();},3000);
+		 
+		  },
+	  dataType:'json'
+	  }); 
+</script>-->
+</body>
+</html>

@@ -1,0 +1,8 @@
+﻿<section class="widget">
+  <h3 class="widget-title">最新文章</h3>
+  <ul class="widget-list">
+    <foreach name='news' item='news'>
+      <li><a href="{:U('/content/'.$news['aid'])}">{$news.title}</a></li>
+    </foreach>
+  </ul>
+</section>

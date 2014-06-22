@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<title>Aimee Mini Blog</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" href="[!Public]css/bootstrap.css">
+<link rel="stylesheet" href="[!Public]css/admin.css">
+<!--[if lt IE 9]>
+        <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+        <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<meta charset="utf-8">
+</head>
+
+<body>
+
+<!--navbar-fixed-top 设置在顶部  navbar-inverse 反色-->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="navbar-header"> 
+    
+    <!--等浏览器缩小时，显示图标-->
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    <a class="navbar-brand" href="#">Aimm Mini Blog</a> </div>
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li><a href="#">概览</a></li>
+      <li><a href="#">撰写</a></li>
+      <!--管理下拉开始-->
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">管理 <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li   class="active"><a href="#">文章</a></li>
+          <li><a href="#">分类</a></li>
+          <li><a href="#">评论</a></li>
+          <li><a href="#">独立页</a></li>
+          <li class="divider"></li>
+          <li><a href="#">导航</a></li>
+        </ul>
+      </li>
+      <!--管理下拉结束--> 
+      <!--配置下拉开始-->
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">配置 <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">基本配置</a></li>
+          <li><a href="#">阅读</a></li>
+          <li><a href="#">永久链接</a></li>
+          <li><a href="#">外观</a></li>
+          <li><a href="#">语言</a></li>
+          <li class="divider"></li>
+          <li><a href="#">备份</a></li>
+        </ul>
+      </li>
+      <!--配置下拉结束-->
+    </ul>
+    <!--右侧菜单下拉开始-->
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">您好，清水<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">进入前台</a></li>
+          <li><a href="#">更新缓存</a></li>
+          <li><a href="#">关于博客</a></li>
+          <li class="divider"></li>
+          <li><a href="#">修改密码</a></li>
+        </ul>
+      </li>
+      <li><a href="#">退出</a></li>
+    </ul>
+  </div>
+  <!--右侧菜单下拉结束--> 
+  
+</nav>
+<div class="container"> 
+  <!--内容开始-->
+  
+  <div class="page-header">
+    <h3>增加导航</h3>
+  </div>
+  <div class="MiniBox2">
+  <form method="post" action="{:U('addmenu')}">
+    <input type="text" name="mname" class="form-control miniinput" placeholder="导航名称" />
+    <input type="text"  name="url" class="form-control miniinput" placeholder="导航地址" />
+    <input type="text" name="sort" class="form-control miniinput2" placeholder="排序" />
+    <button type="submit" class="btn btn-info ">增加导航</button>
+  </form>
+  </div>
+  
+  <!--内容结束-->
+  <div class="footer">
+    <p>&copy; 2012-2014 <a href="#">www.aimees.net</a> All Rights Reserved.</p>
+  </div>
+</div>
+
+<script>$('#myModal').modal(options);</script>
+</html>
