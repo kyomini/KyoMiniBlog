@@ -1,0 +1,2357 @@
+[ 2014-06-22T21:25:36+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!CSS]jquery.mCustomScrollbar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+ERR: 无法加载控制器:Template
+
+plate
+
+[ 2014-06-22T21:25:36+08:00 ] 127.0.0.1 /kyomini/Template/Simple/js/jquery-1.11.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:25:37+08:00 ] 127.0.0.1 /kyomini/Template/Simple/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:25:37+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!CSS]jquery.mCustomScrollbar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:25:37+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!JS]jquery-1.11.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:25:37+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!JS]jquery.mCustomScrollbar.concat.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:25:37+08:00 ] 127.0.0.1 /kyomini/Template/Simple/js/Chinese.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:25:37+08:00 ] 127.0.0.1 /kyomini/Template/Simple/js/jquery-1.11.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:29:18+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.039002s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.017001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.008000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.013001s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant 博客 - assumed '博客' F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Home\dbe9089ee4ab891b33e352ebb7f753f5.php 第 26 行.
+NOTIC: [8] Use of undefined constant 博客 - assumed '博客' F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Home\dbe9089ee4ab891b33e352ebb7f753f5.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.034002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY time DESC LIMIT 5   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.048002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.049002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:29:23+08:00 ] 127.0.0.1 /KyoMini/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:29:23+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:29:23+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:29:29+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Login/Login_in
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.027002s ]
+SQL: SELECT * FROM `mi_admin` WHERE ( `name` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\PHP\WWW\KyoMini\Blog\Admin\Controller\LoginController.class.php 第 40 行.
+SQL: UPDATE `mi_admin` SET `name`='admin',`nickname`='小清�\�',`password`='c4ca4238a0b923820dcc509a6f75849b',`logintime`=1401429681 WHERE ( `id` = 1 ) [ RunTime:0.013000s ]
+NOTIC: [8] Undefined index: loginip F:\PHP\WWW\KyoMini\Blog\Admin\Controller\LoginController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:29:32+08:00 ] 127.0.0.1 /KyoMini/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_page` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_page` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_category` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_comment` [ RunTime:0.015001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_comment` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_comment` ORDER BY coid DESC LIMIT 6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id F:\PHP\WWW\KyoMini\Blog\Admin\Controller\IndexController.class.php 第 37 行.
+SQL: SELECT * FROM `mi_admin` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:29:32+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:29:32+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:29:32+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:29:38+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.024058s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.024058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:29:42+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Template
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.032059s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.032059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:29:48+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Template/Update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-06-22T21:29:53+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Index/cache_del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:29:56+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Template
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.015058s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.015058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-06-22T21:30:00+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant 博客 - assumed '博客' F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Home\dbe9089ee4ab891b33e352ebb7f753f5.php 第 26 行.
+NOTIC: [8] Use of undefined constant 博客 - assumed '博客' F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Home\dbe9089ee4ab891b33e352ebb7f753f5.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY time DESC LIMIT 5   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:30:00+08:00 ] 127.0.0.1 /KyoMini/Template/Simple/Style/Css/normalize.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:30:03+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant 博客 - assumed '博客' F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Home\dbe9089ee4ab891b33e352ebb7f753f5.php 第 26 行.
+NOTIC: [8] Use of undefined constant 博客 - assumed '博客' F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Home\dbe9089ee4ab891b33e352ebb7f753f5.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY time DESC LIMIT 5   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:30:03+08:00 ] 127.0.0.1 /KyoMini/Template/Simple/Style/Css/normalize.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:31:48+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002001s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:31:48+08:00 ] 127.0.0.1 /KyoMini/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Css
+
+[ 2014-06-22T21:31:48+08:00 ] 127.0.0.1 /KyoMini/js/Chinese.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-06-22T21:33:03+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:33:03+08:00 ] 127.0.0.1 /KyoMini/Template/Simple/Style/Css/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:03+08:00 ] 127.0.0.1 /KyoMini/js/Chinese.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-06-22T21:33:05+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:33:05+08:00 ] 127.0.0.1 /KyoMini/Template/Simple/Style/Css/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:05+08:00 ] 127.0.0.1 /KyoMini/js/Chinese.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-06-22T21:33:22+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!JS]jquery-1.11.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:22+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!CSS]style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:22+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!JS]jquery.mCustomScrollbar.concat.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:22+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!CSS]jquery.mCustomScrollbar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:22+08:00 ] 127.0.0.1 /kyomini/Template/Simple/js/Chinese.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:22+08:00 ] 127.0.0.1 /kyomini/Template/Simple/js/jquery-1.11.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:23+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!CSS]style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:23+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!JS]jquery-1.11.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:23+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!CSS]jquery.mCustomScrollbar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:23+08:00 ] 127.0.0.1 /kyomini/Template/Simple/js/Chinese.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:23+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!JS]jquery.mCustomScrollbar.concat.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:23+08:00 ] 127.0.0.1 /kyomini/Template/Simple/js/jquery-1.11.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:24+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!JS]jquery.mCustomScrollbar.concat.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:24+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!CSS]style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:24+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!JS]jquery-1.11.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:24+08:00 ] 127.0.0.1 /kyomini/Template/Simple/js/Chinese.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:24+08:00 ] 127.0.0.1 /kyomini/Template/Simple/[!CSS]jquery.mCustomScrollbar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:24+08:00 ] 127.0.0.1 /kyomini/Template/Simple/js/jquery-1.11.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2014-06-22T21:33:29+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:33:29+08:00 ] 127.0.0.1 /KyoMini/js/Chinese.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-06-22T21:33:36+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:33:36+08:00 ] 127.0.0.1 /KyoMini/js/Chinese.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-06-22T21:33:42+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:33:42+08:00 ] 127.0.0.1 /KyoMini/js/Chinese.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-06-22T21:35:34+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-06-22T21:35:42+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:36:20+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.003000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:36:22+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:36:26+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:37:10+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:37:16+08:00 ] 127.0.0.1 /KyoMini/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_page` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_page` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_category` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_comment` [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_comment` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_comment` ORDER BY coid DESC LIMIT 6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id F:\PHP\WWW\KyoMini\Blog\Admin\Controller\IndexController.class.php 第 37 行.
+SQL: SELECT * FROM `mi_admin` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:37:16+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:37:16+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:37:16+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:37:19+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Index/cache_del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists F:\PHP\WWW\KyoMini\Blog\Admin\Controller\IndexController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:37:21+08:00 ] 127.0.0.1 /KyoMini/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_page` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_page` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_category` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_comment` [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_comment` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_comment` ORDER BY coid DESC LIMIT 6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id F:\PHP\WWW\KyoMini\Blog\Admin\Controller\IndexController.class.php 第 37 行.
+SQL: SELECT * FROM `mi_admin` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:37:22+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:37:22+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:37:22+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:37:24+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:37:26+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:37:27+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:37:27+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:37:30+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.001000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:37:34+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article/mod/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `mi_article` WHERE ( `aid` = 22 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_category`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:37:52+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: UPDATE `mi_article` SET `title`='我是文章世界',`cid`=1,`content`='&lt;P&gt;因为一条短信，吴子子踏上捉奸之路，在陌生的旅途中意外有幸聆听他人埋藏内心已久的故事。残酷的现实，内心的欲望，自私的念头，贪念的依赖以及往事记忆的束缚让她在人伦道德中苦苦挣扎。最终突如而至的一封信让她明白这趟看似简单却又虐心煎熬的旅程竟然是一场策划已久的阴谋。当一切尘埃落定时吴子子说，她不是第三者，也不是情人，甚至连做这些的资格都没有，只不过是个茕茕孑立的寄生虫，罢了�\�&lt;/P&gt;',`time`=2014,`tag`='',`click`=1,`hot`=1,`summary`='' WHERE ( `aid` = 22 ) [ RunTime:0.016001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:37:54+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article/mod/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_article` WHERE ( `aid` = 22 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `mi_category`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:37:57+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.001000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:38:00+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:38:02+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.001001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:38:20+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002001s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:38:32+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:38:39+08:00 ] 127.0.0.1 /KyoMini/ADMIN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-06-22T21:38:44+08:00 ] 127.0.0.1 /KyoMini/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:38:44+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:38:44+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:38:52+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Login/Login_in
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `mi_admin` WHERE ( `name` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\PHP\WWW\KyoMini\Blog\Admin\Controller\LoginController.class.php 第 40 行.
+SQL: UPDATE `mi_admin` SET `name`='admin',`nickname`='小清�\�',`password`='c4ca4238a0b923820dcc509a6f75849b',`logintime`=1401429681 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: loginip F:\PHP\WWW\KyoMini\Blog\Admin\Controller\LoginController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:38:54+08:00 ] 127.0.0.1 /KyoMini/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mi_page` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_page` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_category` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_comment` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_comment` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_comment` ORDER BY coid DESC LIMIT 6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id F:\PHP\WWW\KyoMini\Blog\Admin\Controller\IndexController.class.php 第 37 行.
+SQL: SELECT * FROM `mi_admin` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:38:54+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:38:54+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:38:54+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.svg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:38:56+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article/Article_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_category`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002001s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:38:59+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.001000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:39:02+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article/mod/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_article` WHERE ( `aid` = 22 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `mi_category`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:39:58+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002001s ]
+SQL: UPDATE `mi_article` SET `title`='我是文章世界',`cid`=1,`content`='因为一条短信，吴子子踏上捉奸之路，在陌生的旅途中意外有幸聆听他人埋藏内心已久的故事。残酷的现实，内心的欲望，自私的念头，贪念的依赖以及往事记忆的束缚让她在人伦道德中苦苦挣扎。最终突如而至的一封信让她明白这趟看似简单却又虐心煎熬的旅程竟然是一场策划已久的阴谋。当一切尘埃落定时吴子子说，她不是第三者，也不是情人，甚至连做这些的资格都没有，只不过是个茕茕孑立的寄生虫，罢了�\�&lt;br /&gt;\r\n&lt;br /&gt;\r\nlk&quot;&lt;br /&gt;\r\n&lt;p&gt;\r\n	&lt;br /&gt;\r\njkk\r\n&lt;/p&gt;',`time`=1970,`tag`='',`click`=1,`hot`=1,`summary`='' WHERE ( `aid` = 22 ) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:40:01+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article/mod/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `mi_article` WHERE ( `aid` = 22 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `mi_category`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:40:09+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:41:14+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002001s ]
+SQL: UPDATE `mi_article` SET `title`='我是文章世界',`cid`=1,`content`='dgedgdgdfg&lt;br /&gt;\r\n&lt;br /&gt;\r\n&lt;p&gt;\r\n	hjmhjjhm&lt;br /&gt;\r\n&lt;br /&gt;\r\njhhjh&quot;&quot;&lt;br /&gt;\r\n&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;br /&gt;\r\n&lt;/p&gt;',`time`=1970,`tag`='',`click`=1,`hot`=1,`summary`='' WHERE ( `aid` = 22 ) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:41:17+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article/mod/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_article` WHERE ( `aid` = 22 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_category`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:41:46+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: UPDATE `mi_article` SET `title`='我是文章世界',`cid`=1,`content`='&lt;p&gt;\r\n	7777677&lt;br /&gt;\r\n9999&lt;br /&gt;\r\n&lt;br /&gt;\r\n&lt;/p&gt;',`time`=1970,`tag`='',`click`=1,`hot`=1,`summary`='' WHERE ( `aid` = 22 ) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:41:49+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article/mod/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `mi_article` WHERE ( `aid` = 22 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_category`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+NOTIC: [8] Undefined variable: datas F:\PHP\WWW\KyoMini\Blog\Runtime\Cache\Admin\d141a9cf7dffb4e2d05f900210e9be43.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:41:59+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-06-22T21:45:12+08:00 ] 127.0.0.1 /KyoMini/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_page` [ RunTime:0.002001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_page` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_category` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_comment` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_comment` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_comment` ORDER BY coid DESC LIMIT 6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id F:\PHP\WWW\KyoMini\Blog\Admin\Controller\IndexController.class.php 第 37 行.
+SQL: SELECT * FROM `mi_admin` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:45:12+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:45:12+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:45:12+08:00 ] 127.0.0.1 /KyoMini/Blog/Admin/View/Public/fonts/glyphicons-halflings-regular.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Blog
+
+[ 2014-06-22T21:45:16+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article/Article_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_category`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.002000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:45:36+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article/addcontent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\PHP\WWW\KyoMini\Blog\Admin\Controller\ArticleController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: img F:\PHP\WWW\KyoMini\Blog\Admin\Controller\ArticleController.class.php 第 88 行.
+NOTIC: [8] Undefined index: img F:\PHP\WWW\KyoMini\Blog\Admin\Controller\ArticleController.class.php 第 89 行.
+NOTIC: [8] Undefined variable: file F:\PHP\WWW\KyoMini\Blog\Admin\Controller\ArticleController.class.php 第 89 行.
+SQL: INSERT INTO `mi_article` (`title`,`content`,`cid`,`time`,`tag`,`click`,`hot`,`summary`,`img`) VALUES ('巍峨伟v','fweffssdfsdfsdfsdfsmio<br />\r\n<br />\r\ndsadf<br />\r\n<br />\r\n<br />\r\nSdfsdfsdfsdfd<br />\r\nSDF<br />\r\nSdF<br />\r\nsd<br />\r\nFD<br />\r\nSf',2,1403444736,'',1,1,'','') [ RunTime:0.028001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:45:39+08:00 ] 127.0.0.1 /KyoMini/index.php/Admin/Article/Article_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_category`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_admin` [ RunTime:0.001000s ]
+SQL: SELECT `nickname` FROM `mi_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:45:49+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='2' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-22T21:46:59+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='2' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-22T21:51:01+08:00 ] 127.0.0.1 /KyoMini/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' F:\PHP\WWW\KyoMini\Blog\Home\Conf\config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mi_menu` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `mi_menu` ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_article` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mi_article` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `mi_article` ORDER BY aid DESC LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mi_category` [ RunTime:0.002000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='2' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `cname` FROM `mi_category` WHERE ( 1=1 AND cid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

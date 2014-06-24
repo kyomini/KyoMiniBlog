@@ -1,0 +1,151 @@
+<include file="Public:Header" />
+<body>
+<include file="Public:Nav" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="container">
+  <!--内容开始-->
+  
+  <div class="page-header">
+  <h3>评论</h3>
+
+  </div>
+
+  <div class="MiniBox2">
+  
+    <form method="post" action="__URL__/del">
+
+  
+  <table width="100%" border="0" class="table table-hover" id="list" >
+  <tr>
+    <td width="5%" id="border_top"><input type="checkbox"  id="all"></td>
+    <td width="20%" id="border_top"><b>时间</b></td>
+    <td width="40%"class="biaoti" id="border_top"><b>评论内容</b></td>
+    <td width="10%" id="border_top"><b>提交者</b></td>
+    <td width="10%" id="border_top"><b>回复</b></td>
+    <td width="30%" id="border_top"><b>操作</b></td>
+  </tr>
+    <foreach name='list' item='vo'>
+  <tr>
+  
+
+    <td>
+    
+<input type="checkbox"  value="{$vo.aid}" name="{$vo.aid}">
+    
+    </td>
+    <td>{$vo.time|date='Y-m-d',###}</td>
+    <td class="biaoti">{$vo.content}</td>
+    <td>{$vo.couname}</td>
+    <td>{$vo.respond}</td>
+    <td>
+     <span onclick="location.href='__URL__/mod/id/{$vo.coid}'">回复 </span>
+    
+      <span onclick="if(confirm('确认删除吗?'))window.location.href='__URL__/del/id/{$vo.coid}'"> 删除</span> 
+    
+    </td>
+  </tr>
+    
+  </foreach>
+  
+  <tr>
+    <td colspan="6" class="biaoti" style="padding-top:25px;
+    ">
+<button type="submit" class="btn btn-success">删除</button>        
+      
+      
+     {$page}
+      </td>
+  </tr>
+</table>
+</form>
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--内容结束-->
+ <include file="Public:Copy" />
+  </div>
+  
+  
+
+
+
+
+  
+  
+<script>
+    $("#all").on('click', function() {
+    $(this)
+    .parents('table') 
+    .find(':checkbox')                     
+    .prop('checked', $(this).is(':checked'));
+})
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>$('#myModal').modal(options);</script>
+
+
+</html>

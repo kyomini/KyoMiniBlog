@@ -1,0 +1,136 @@
+<include file="Public:Header" />
+<body>
+<include file="Public:Nav" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="container">
+  <!--内容开始-->
+  
+  <div class="page-header">
+  <h3>分类</h3>
+
+  </div>
+    <div class="input-append">
+         <a href="{:U('Category_add')}" class="btn btn-info sousuo">增加分类</a>
+         
+</div>
+  <div class="MiniBox2">
+  
+  
+  
+  <table width="100%" border="0" class="table table-hover" id="list" >
+  <tr>
+    <td width="5%"><b>ID</b></td>
+    <td width="15%"><b>分类</b></td>
+    <td width="60%" class="biaoti"><b>描述</b></td>
+    <td width="15%"><b>操作</b></td>
+  </tr>
+    <foreach name='cate' item='c'>
+  <tr>
+    <td>{$c.cid}</td>
+    <td>{$c.cname}</td>
+    <td class="biaoti">{$c.cdescription}</td>
+    <td>
+    <span onclick="location.href='__URL__/mod/id/{$c.cid}'">编辑</span> <span onclick="if(confirm('确认删除吗?'))window.location.href='__URL__/del/id/{$c.cid}'">删除</span>
+    </td>
+  </tr>
+  </foreach>
+  <tr>
+    <td colspan="4" class="biaoti" style="padding-top:25px;">
+      
+      
+      
+      
+      
+  <!--    
+    <ul class="pagination">
+  <li><a href="#">&laquo;</a></li>
+  <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a href="#">&raquo;</a></li>
+</ul>-->
+      </td>
+  </tr>
+</table>
+
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--内容结束-->
+    <include file="Public:Copy" />
+
+  </div>
+  
+
+
+
+
+  
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+</html>
