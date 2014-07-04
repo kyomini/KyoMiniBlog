@@ -30,6 +30,7 @@ class Pdo extends Db{
             if(empty($this->config['params'])) {
                 $this->config['params'] =   array();
             }
+            $this->dbType = $this->_getDsnType($config['dsn']);            
         }
 
     }
@@ -169,7 +170,7 @@ class Pdo extends Db{
             }else{
               $val  = array($key,$val);
             }
-            call_user_func_array(array($this->PDOStatement,'bindParam'),$val);
+            call_user_func_array(array($this->PDOStatement,'bindValue'),$val);
         }      
     }
 
@@ -387,7 +388,7 @@ class Pdo extends Db{
      * @return string
      */
     protected function parseKey(&$key) {
-        if($this->dbType=='MYSQL'){
+        if(!is_numeric($key) && $this->dbType=='MYSQL'){
             $key   =  trim($key);
             if(!preg_match('/[,\'\"\*\(\)`.\s]/',$key)) {
                $key = '`'.$key.'`';
