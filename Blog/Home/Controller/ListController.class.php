@@ -1,17 +1,20 @@
 <?php
-// 
-class ListAction extends Action {
+namespace Home\Controller;
+use Think\Controller;
+class ListController extends CommonController {
 	
     public function index(){
 		
-	  	$menu=M('menu')->order('sort ASC')->select();
-        $this->menu=$menu;
 
 		$id = I('get.id');
 		//$list=M('article')->where(array('cid'=>$id))->limit()->select();
+		$Blog=M('article');
+	   $count = $Blog->count();
+		  $Page =new \Think\Page($count,C('LISTPAGESIZE'));		
+		$list=$Blog->where(array('cid'=>$id))->limit($Page->firstRow.','.$Page->listRows)->select();
 
-		$list=M('article')->where(array('cid'=>$id))->select();
-		
+   	       $show = $Page->show();
+	       $this->assign('page',$show);
 		
 		
 		$field=	array('cname');

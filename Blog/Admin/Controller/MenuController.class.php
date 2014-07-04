@@ -16,7 +16,7 @@ class MenuController extends CommonController {
 
 	    public function addmenu(){
 		  if(M('menu')->add($_POST)){
-			  $this->success('增加导航成功',__APP__.'/Menu');
+			  $this->success('增加导航成功',__APP__.'/Admin/Menu');
 			  }else{
 			$this->error('增加失败');
 
@@ -59,7 +59,7 @@ class MenuController extends CommonController {
         $result = $Form->save();
         if($result) {
              //如果修改成功，跳转到首页
-             $this->success('修改成功！',__APP__.'/Menu');
+             $this->success('修改成功！',__APP__.'/Admin/Menu');
         }else{
              //否则修改错误
              $this->error('写入错误！');

@@ -11,7 +11,7 @@ class CommentController extends CommonController {
 		   $Comment=M("Comment");
       
 		   $count = $Comment->count();
-		   $Page =new \Think\Page($count,2);		
+		   $Page =new \Think\Page($count,15);		
 		   $Page->setConfig('prev','<');
            $Page->setConfig('next','>');
 

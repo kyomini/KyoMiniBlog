@@ -1,5 +1,5 @@
 <?php return  array (
   'template' => 'Default',
-  'PAGESIZE' => '3',
+  'PAGESIZE' => '8',
   'LISTPAGESIZE' => '20',
 );

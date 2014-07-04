@@ -1,14 +1,12 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class IndexController extends Controller {
+class IndexController extends CommonController {
 	
     public function index(){
 
 
 
-   $menu=M('menu')->order('sort ASC')->select();
-   $this->menu=$menu;
 
    $Blog=D('Article');
 

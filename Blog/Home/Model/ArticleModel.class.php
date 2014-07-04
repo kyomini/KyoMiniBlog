@@ -15,8 +15,13 @@ class ArticleModel extends RelationModel{
 			  'as_fields'=>'cname',
 
 			 ),
+			
 
-	);}
+	);
+	
+
+	
+	}
 
 	
 	

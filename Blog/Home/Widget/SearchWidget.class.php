@@ -5,7 +5,8 @@ use Think\Action;
 
 class SearchWidget extends Action{
 
-   public function Index(){        
+   public function Index(){
+          
    $this->display('Widget:Search');
 
    }

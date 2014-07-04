@@ -1,3 +1,3 @@
 <?php return  array (
-  'LANG_LIST' => 'zh-cn',
+  'LANG_LIST' => 'zh-tw',
 );

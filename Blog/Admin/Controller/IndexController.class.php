@@ -33,9 +33,7 @@ class IndexController extends CommonController{
         $this->assign('comment',$commen);
 		
 		
-		$user=M('Admin');
-		$data=$user->find($id);
-        $this->user=$data;	
+
 
 		
         $this->display();
@@ -58,9 +56,10 @@ class IndexController extends CommonController{
         //清文件缓存
         $dirs = array(
             'Blog/Runtime/Cache',
-			'Blog/Runtime/Temp'
+			'Blog/Runtime/Temp',
+			'Blog/Runtime/Logs',
         );
-        @mkdir('Runtime', 0777, true);
+        @mkdir('Blog/Runtime', 0777, true);
         //清理缓存
         foreach ($dirs as $value) {
             $this->rmdirr($value);

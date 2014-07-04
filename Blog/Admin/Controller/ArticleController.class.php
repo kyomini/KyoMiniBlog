@@ -7,7 +7,7 @@ namespace Admin\Controller {
         {
             $Blog = D('Article');
             $count = $Blog->count();
-            $Page = new \Think\Page($count, 10);
+            $Page = new \Think\Page($count, 20);
             $show = $Page->show();
             $list = $Blog->relation(true)->order('aid DESC')->limit(($Page->firstRow . ',') . $Page->listRows)->select();
             $this->assign('list', $list);
@@ -51,9 +51,9 @@ namespace Admin\Controller {
                 $data['img'] = $_POST['img'] . $file['savename'];
             }
             if ($article->add($data)) {
-                $this->success('<p>'.L('Write_success').'</p>');
+                $this->success(L('Write_success'));
             } else {
-                $this->error('<p>'.L('Write_error').'</p>');
+                $this->error(L('Write_error'));
             }
         }
         public function mod()
@@ -85,9 +85,9 @@ namespace Admin\Controller {
                 $db = M('Article');
                 $status = $db->where(array('aid' => $id))->delete();
                 if ($status) {
-                    $this->success('<p>'.L('dell_success').'</p>');
+                    $this->success(L('dell_success'));
                 } else {
-                    $this->error('<p>'.L('dell_error').'</p>');
+                    $this->error(L('dell_error'));
                 }
             }
         }
@@ -97,9 +97,9 @@ namespace Admin\Controller {
             $hot = $_GET['hot'];
             $result = $this->setHot($id, $hot);
             if ($result) {
-                $this->success('<p>'.L('set_success').'</p>');
+                $this->success(L('set_success'));
             } else {
-                $this->error('<p>'.L('set_error').'</p>');
+                $this->error(L('set_error'));
             }
         }
         public function update()
@@ -108,9 +108,9 @@ namespace Admin\Controller {
             if ($Form->create()) {
                 $result = $Form->save();
                 if ($result) {
-                    $this->success('<p>'.L('success').'</p>');
+                    $this->success(L('success'));
                 } else {
-                    $this->error('<p>'.L('error').'</p>');
+                    $this->error(L('error'));
                 }
             } else {
                 $this->error($Form->getError());

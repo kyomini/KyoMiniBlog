@@ -5,25 +5,28 @@
   <!--内容开始-->
   
   <div class="page-header">
-    <h3>增加独立页</h3>
+    <h3>{$Think.lang.Add_onepage}</h3>
   </div>
   <div class="MiniBox2">
     <form role="form" method="post" action="{:U('add')}">
       <div class="MiniBox2_left">
-        <input type="text" class="form-control miniinput" placeholder="名称" name="title"/>
+        <input type="text" class="form-control miniinput" placeholder="{$Think.lang._name_}" name="title"/>
       </div>
-      <textarea class="form-control miniinput3" rows="20" id="editor_id" name="content"></textarea>
-      <input type="text" class="form-control miniinput" placeholder="描述"  style="margin-top:20px" name="keywords"/>
-      <input type="text" class="form-control miniinput" placeholder="关键词" name="description"/>
-      <button type="submit" class="btn btn-info minibtn">发布</button>
-      <button type="reset" class="btn btn-info minibtn">重写</button>
+<br>
+
+
+      <textarea class="form-control miniinput3" rows="20" id="editor_id" name="content"></textarea> 
+      <input type="text" class="form-control miniinput" placeholder="{$Think.lang._description_}"  style="margin-top:20px" name="keywords"/>
+      <input type="text" class="form-control miniinput" placeholder="{$Think.lang._key_}" name="description"/>
+      
+      <button type="submit" class="btn btn-info minibtn">{$Think.lang._release_}</button>
+      <button type="reset" class="btn btn-info minibtn">{$Think.lang._rewrite_}</button>
     </form>
   </div>
   
   <!--内容结束--> 
   <include file="Public:Copy" /> </div>
 
-<script src="[!Public]js/locales/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script> 
 <script charset="utf-8" src="[!Public]editor/kindeditor.js"></script> 
 <script charset="utf-8" src="[!Public]editor/lang/zh_CN.js"></script> 
 <script>
@@ -35,6 +38,7 @@
 				uploadJson : '[!Public]editor/php/upload_json.php',
 				fileManagerJson : '[!Public]editor/php/file_manager_json.php',               
 				themeType : 'simple',
+				 langType:'{$Think.config.LANG_LIST}', 
 				allowFileManager : false,
 				allowPreviewEmoticons : true,//远程图片关闭
 				allowImageUpload : true, //显示上传图片按钮
@@ -46,7 +50,7 @@
 'title', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
 'italic', 'underline', 'strikethrough', 'removeformat', '|', 'image',
 'flash', 'media', 'advtable',  'emoticons', 'link', 'unlink', 
-'|', 'map','code','about'],
+'|', 'baidumap','code','about'],
 
 });
 });

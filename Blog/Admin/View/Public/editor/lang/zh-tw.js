@@ -232,4 +232,4 @@ KindEditor.lang({
 		'2.html' : '表格',
 		'3.html' : '项目清單'
 	}
-}, 'zh_TW');
+}, 'zh-tw');

@@ -8,12 +8,12 @@ class PageController extends CommonController {
 		$db=M('Page');
 	
 
-		   $count = $db->count();
-		   $Page =new \Think\Page($count,2);		
-		  $Page->setConfig('prev','<');
-          $Page->setConfig('next','>');
+		$count = $db->count();
+		$Page =new \Think\Page($count,20);		
+		$Page->setConfig('prev','<');
+        $Page->setConfig('next','>');
 
-   	   $show = $Page->show();
+   	    $show = $Page->show();
 		$one = $db->order('pid DESC')->limit($Page->firstRow.','.$Page->listRows)->select();
 	  
 		$this->assign('page',$show);
@@ -28,33 +28,58 @@ class PageController extends CommonController {
 	  }
 	   
 		public function add(){
-		  
-			
-		$con=M('Page');
-			if($con->add($_POST)){
+
+
+            $article = M('Page');
+            $data['title'] = $_POST['title'];
+            $data['content'] = $_POST['content'];
+            $data['keywords'] = $_POST['keywords'];
+            $data['description'] = $_POST['description'];
+            
+            if ($article->add($data)) {
 				$this->success('增加数据成功');
-				}else{
+            } else {
 				$this->error('增加数据失败');
-				}
+            }
+     
+
+
+
+
+
+
+
+
+
+
 		
 		   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		
 
 	   
 	public function del(){
 
-
-
-
-
-
         if(IS_POST){
-            //$ids = I('post.pid');
 			$ids=($_POST);
-			//p($ids);
-			//die();
+
             $db = M("Page");
-			//if(is_array($ids)
             if($ids){
                              foreach($ids as $id){
                              $db->where(array("pid" => $id))->delete();
@@ -75,20 +100,6 @@ class PageController extends CommonController {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		 
    }
    
@@ -97,7 +108,6 @@ class PageController extends CommonController {
    
     Public function mod () {
 		$id=$_GET['id'];
-		// $id = I('get.id');
 		if(!empty($id)){
 			$art=M('Page');
 			$where = array('pid' => $id);
@@ -111,20 +121,15 @@ class PageController extends CommonController {
    
    
    
-       //修改提交处理
     public function update(){
-        //create方法
         $Form= M('Page');
         if($Form->create()) {
         $result = $Form->save();
         if($result) {
-             //如果修改成功，跳转到首页
              $this->success('操作成功！');
         }else{
-             //否则修改错误
              $this->error('写入错误！');
         } 
-             //否则系统异常错误
         }else{
         $this->error($Form->getError());
         }
@@ -136,42 +141,7 @@ class PageController extends CommonController {
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-    function _empty() {
-        header("HTTP/1.0 404 Not Found"); //使HTTP返回404状态码
-        $this->display("Public:404");
-    }
+
    
 }
 

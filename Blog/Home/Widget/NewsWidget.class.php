@@ -1,7 +1,5 @@
 <?php
-/*
-  最新文章Widget
-*/
+
 namespace Home\Widget {
 use Think\Action;
     class NewsWidget extends Action

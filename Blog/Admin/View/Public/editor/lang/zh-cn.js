@@ -233,4 +233,4 @@ KindEditor.lang({
 		'2.html' : '表格',
 		'3.html' : '项目编号'
 	}
-}, 'zh_CN');
+}, 'zh-cn');

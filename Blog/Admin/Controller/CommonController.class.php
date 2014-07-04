@@ -13,7 +13,9 @@ use Think\Controller;
             if (!isset($_SESSION['id'])) {
                 $this->redirect('/Admin/Login');
             }
-	
+	    $user=M('Admin');
+		$data=$user->find($id);
+        $this->user=$data;	
 
 			
         }
@@ -32,10 +34,13 @@ use Think\Controller;
 	   {
        header("HTTP/1.0 404 Not Found");
        $this->display("Public:404");
+
+	   
        }
 	   
-	
 
+	
+		
 	   
 		
     }

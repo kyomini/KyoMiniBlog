@@ -46,7 +46,7 @@ use Think\Controller;
         //导入验证码，4为文字
         public function verify()
         {
-            $config = array('fontSize' => 18, 'length' => 1, 'imageW' => 130, 'bg' => array(57, 179, 215), 'imageH' => 42, 'useCurve' => false, 'useNoise' => false);
+            $config = array('fontSize' => 18, 'length' => 4, 'imageW' => 130, 'bg' => array(57, 179, 215), 'imageH' => 42, 'useCurve' => false, 'useNoise' => false);
             $verify = new \Think\Verify($config);
             $verify->entry();
         }

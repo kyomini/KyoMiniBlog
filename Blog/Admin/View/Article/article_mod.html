@@ -25,9 +25,9 @@
   
   
   
-  <form role="form" method="post" action="{:U('update')}" enctype="multipart/form-data">
+  <form role="form" method="post" action="{:U('update')}" enctype="multipart/form-data" >
   <div class="MiniBox2_left">
-    <input type="text" class="form-control miniinput" placeholder="标题" name="title"/ value="{$conn.title}">
+    <input type="text" class="form-control miniinput" placeholder="{$Think.lang._title_}" name="title"/ value="{$conn.title}">
 
 
     </div>
@@ -57,14 +57,14 @@
     <div id="write_high">
    
    <div class="overflow">
-   <input size="16" type="text" class="form-control form_datetime" placeholder="日期" name="time" value="{$conn.time|date='Y-m-d H:NN',###}">
-   <input type="text" class="form-control miniinput4" placeholder="关键词" name="tag" value="{$conn.tag}">
+   <input size="16" type="text" class="form-control form_datetime" placeholder="{$Think.lang._date_}" name="time" value="{$conn.time|date='Y-m-d H:NN',###}">
+   <input type="text" class="form-control miniinput4" placeholder="{$Think.lang._key_}" name="tag" value="{$conn.tag}">
    <input type="text"  class="form-control miniinput8"  name="click" value="{$conn.click}">
     <div class="miniinput10">
    <input type="radio" name="hot" value = "1" id="optionsRadios1" checked> 
-   &nbsp;默 认&nbsp;
+   &nbsp;{$Think.lang._default_}&nbsp;
 <input type="radio" name="hot" value = "0" >
-   &nbsp;置 顶
+   &nbsp;{$Think.lang._stick_}
    </div>
 
    </div>
@@ -73,7 +73,7 @@
     <input type="file" id="exampleInputFile" class="miniinput9" name="img" value="{$conn.img}">
    </div>
 
-   <textarea class="form-control miniinput3" rows="3" name="summary" id="zhaiyao" placeholder="摘要">{$conn.summary}</textarea>
+   <textarea class="form-control miniinput3" rows="3" name="summary" id="zhaiyao" placeholder="{$Think.lang._summary_}">{$conn.summary}</textarea>
 
    </div>
 
@@ -87,15 +87,15 @@
    
                <input type="hidden" name="aid" value="{$conn.aid}">
 
-  <button type="submit" class="btn btn-info minibtn">更新</button>
+  <button type="submit" class="btn btn-info minibtn">{$Think.lang._update_}</button>
   <div class="btn-group">
-  <button type="button" class="btn btn-info minibtn dropdown-toggle" data-toggle="dropdown">选择 <span class="caret"></span></button>
+  <button type="button" class="btn btn-info minibtn dropdown-toggle" data-toggle="dropdown">{$Think.lang._choice_} <span class="caret"></span></button>
 
   <ul class="dropdown-menu" role="menu">
-    <li><a href="#" id="reset">重写</a></li>
+    <li><a href="#" id="reset">{$Think.lang._rewrite_}</a></li>
     <li>
-    <a href="#" id="write_high_open">高级</a>
-    <a href="#" id="write_high_close">关闭</a>
+    <a href="#" id="write_high_open">{$Think.lang._senior_}</a>
+    <a href="#" id="write_high_close">{$Think.lang._close_}</a>
     </li>
   </ul>
   </div>
@@ -153,8 +153,7 @@
   
   
 
-    <script charset="utf-8" src="[!Public]js/bootstrap-datetimepicker.min.js"></script>
-    <script src="[!Public]js/locales/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
+
     <script charset="utf-8" src="[!Public]editor/kindeditor.js"></script>
     <script charset="utf-8" src="[!Public]editor/lang/zh_CN.js"></script>
 <script>
@@ -166,6 +165,7 @@
 				uploadJson : '[!Public]editor/php/upload_json.php',
 				fileManagerJson : '[!Public]editor/php/file_manager_json.php',               
 				themeType : 'simple',
+         langType:'{$Think.config.LANG_LIST}', 
 				allowFileManager : false,
 				allowPreviewEmoticons : true,//远程图片关闭
 				allowImageUpload : true, //显示上传图片按钮
@@ -183,24 +183,7 @@
 });
 </script>
 
-<script type="text/javascript">
-    $(".form_datetime").datetimepicker({
-		format: 'yyyy-mm-dd hh:ii',
-		 language:'zh-CN',
-		  weekStart:1,
-        todayBtn:1,
-        autoclose:1,
-        todayHighlight:1,
-        startView:2,
-        minView:2,
-        forceParse:0
-		});
-
-
-      
-
-
-</script>  
+ 
 <script>
 
  $("#reset").click(function(){
@@ -224,24 +207,6 @@
   
     
 </script>
-        <script src="[!Public]Js/jquery.form.js"></script>
-    <script language="javascript" type="text/javascript">
-        $('#forms').ajaxForm({
-            success: function(data) {
-                var Mini = "";
-                if (data.status == 1) {
-                    Mini = "<div class='alert alert-success'>" + data.info + "</div>";
-                } else {
-                    Mini = "<div class='alert alert-danger'>" + data.info + "</div>";
-                }
-                $('#result').html(Mini).show();
-                location = location;
-                setTimeout(function() {
-                    $('#result').html('').fadeOut();
-                }, 3000);
-            },
-            dataType: 'json'
-        });
-    </script>
+
 
 </html>

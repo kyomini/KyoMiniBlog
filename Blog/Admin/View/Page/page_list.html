@@ -5,10 +5,10 @@
   <!--内容开始-->
   
   <div class="page-header">
-    <h3>独立页</h3>
+    <h3>{$Think.lang.One_page}</h3>
   </div>
   <div class="input-append">
-    <a href="{:U('addpage')}" class="btn btn-info ">增加独立页</a>
+    <a href="{:U('addpage')}" class="btn btn-info ">{$Think.lang.Add_onepage}</a>
   </div>
   <div class="MiniBox2">
   <form method="post" action="__URL__/del">
@@ -17,23 +17,21 @@
         <td width="5%" ><input type="checkbox"  id="all">
          </td>
         <td width="10%"><b>ID</b></td>
-        <td width="50%" class="biaoti" ><b>描述</b></td>
-        <td width="15%" ><b>操作</b></td>
+        <td width="50%" class="biaoti" ><b>{$Think.lang._description_}</b></td>
+        <td width="15%" ><b>{$Think.lang._operation_}</b></td>
       </tr>
       <foreach name='one' item='one'>
         <tr>
           <td><input type="checkbox"  value="{$one.pid}" name="{$one.pid}"></td>
           <td>{$one.pid}</td>
           <td class="biaoti">{$one.title}</td>
-          <td><span onclick="location.href='__URL__/mod/id/{$one.pid}'">编辑</span> <span onclick="if(confirm('确认删除吗?'))window.location.href='__URL__/del/id/{$one.pid}'">删除</span> </td>
+          <td><span onclick="location.href='__URL__/mod/id/{$one.pid}'">{$Think.lang._editor_}</span> <span onclick="if(confirm('{$Think.lang._editor_}?'))window.location.href='__URL__/del/id/{$one.pid}'">{$Think.lang._del_}</span> </td>
         </tr>
       </foreach>
       <tr>
-        <td colspan="4" class="biaoti" style="padding-top:25px;"><button type="submit" class="btn btn-success">删除</button>
+        <td colspan="4" class="biaoti" style="padding-top:25px;"><button type="submit" class="btn btn-success">{$Think.lang._del_}</button>
           <ul class="pagination">
-            
-            <!--  <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>  <li><a href="#">2</a></li>
---> 
+
             {$page}
           </ul></td>
       </tr>
@@ -44,5 +42,12 @@
   <!--内容结束--> 
   <include file="Public:Copy" /> </div>
 
-
+<script>
+    $("#all").on('click', function() {
+    $(this)
+    .parents('table') 
+    .find(':checkbox')                     
+    .prop('checked', $(this).is(':checked'));
+})
+    </script>
 </html>
