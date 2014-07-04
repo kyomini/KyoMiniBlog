@@ -1,5 +1,6 @@
 ﻿<include file="./Template/Default/header.html" /> 
-<body>
+    
+<body><span id="result"></span>
 <header id="header" class="clearfix">
     <div class="container">
         <div class="col-group">
@@ -11,9 +12,15 @@
                             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="current " href="__ROOT__">博客</a>
                     <foreach name='menu' item='m'>
-					<a href="{$m.url}" title="{$m.mname}">{$m.mname}</a>
+					
+                    
+                   <if condition="$m.mname eq '博客'">
+                 <a href="{$m.url}" title="{$m.mname}" class="current "> {$m.mname}</a><else /> 
+                  
+                  <a href="__ROOT__/{$m.url}" title="{$m.mname}">{$m.mname}</a></if>
+                  
+                   
                     </foreach>
 				</nav>
             </div>
@@ -37,45 +44,60 @@
 			</div>
 		</article>
 		<div id="comments">
-        	<span class="widget-title">仅有 1 条评论</span>
-    <ol class="comment-list"><li id="comment-29" class="comment-body comment-parent comment-odd">
+        	<span class="widget-title">僅有 {$comcount} 條評論</span>
+    <ol class="comment-list">
+    
+     <foreach name='com' item='com'>
+
+    <li id="comment-29" class="comment-body comment-parent comment-odd">
     <div class="comment-author">
-        <img class="avatar" src="picture/4cd9ee4181324deebce7f0d53499db91.gif" alt="羽中" width="32" height="32" />        <cite class="fn"><a href="http://www.jzwalk.com" rel="external nofollow">羽中</a></cite>
+    <cite class="fn">
+    {$com.couname} |     <span>{$com.time|date='F d Y',###} </span>
+</cite>
     </div>
     <div class="comment-meta">
-        <a href="http://pickcho.com/archives/graduation2/#comment-29">May 22nd, 2014</a>
-            </div>
-    <div class="comment-content">
-    <p>过去十年了，天天在做高考的噩梦</p>
     </div>
-    <div class="comment-reply">
-        <a href="http://pickcho.com/archives/graduation2/?replyTo=29#respond-post-7" rel="nofollow" onclick="return TypechoComment.reply('comment-29', 29);">回复</a>    </div>
+    
+    <div class="comment-content">
+    <p>{$com.content}</p>
+    </div>
     </li>
+    </foreach>
+    
+    
+    
 </ol>                <div id="respond-post-7" class="respond">
         <div class="cancel-comment-reply">
-        <a id="cancel-comment-reply-link" href="http://pickcho.com/archives/graduation2/#respond-post-7" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>        </div>
-    	<span id="response" class="widget-title">添加新评论</span>
-    	<form method="post" action="http://pickcho.com/archives/graduation2/comment" id="comment-form">
+        <a id="cancel-comment-reply-link" href="http://pickcho.com/archives/graduation2/#respond-post-7" rel="nofollow" style="display:none" onClick="return TypechoComment.cancelReply();">取消回复</a>        </div>
+    	<span id="response" class="widget-title">添加新評論</span>
+    	<form method="post" action="{:U('add')}" id="comment-form">
 			<div class="col1">
 			<p>
-                <textarea rows="8" cols="50" name="text" class="textarea"></textarea>
+                <textarea rows="9" cols="50" name="content" class="textarea"></textarea>
             </p>
 			</div>
 			<div class="col2">
                 		<p>
-                <label for="author" class="required">称呼</label>
-    			<input type="text" name="author" id="author" class="text" value="" />
+                <label for="author" class="required">稱呼</label>
+    			<input type="text" name="couname" id="author" class="text" value="" />
     		</p>
     		<p>
-                <label for="mail" class="required">邮箱</label>
-    			<input type="email" name="mail" id="mail" class="text" value="" />
+                <label for="mail" class="required">郵箱</label>
+    			<input type="email" name="email" id="mail" class="text" value="" />
     		</p>
-    		<p>
-                <label for="url">网站</label>
-    			<input type="url" name="url" id="url" class="text" placeholder="http://example.com" value="" />
+            <p>
+            <label for="verify" class="required">驗證碼</label>
+        <input type="verify" class="text" name="verify" style="height:20px;
+        margin-bottom:8px;
+        padding-left:60px;
+        width:135px;" value="" />
+        <img src="{:U('verify')}" class="verify" onclick='this.src=this.src+"?"+Math.random()'>
     		</p>
+    	
                 		<p>
-                <button type="submit" class="submit">提交评论</button>
+                 <input type="hidden" name="aid" value="{$blog.aid}">
+
+                <button type="submit" class="submit">提交評論</button>
             </p>
 			</div>
 			<div class="clear"></div>
@@ -84,28 +106,12 @@
     </div>	</div>
 </div>
 <div id="secondary">
-	<section class="widget">
-        <form id="search" method="post" action="./">
-			<input type="text" name="s" class="text" placeholder="搜索..." />
-			<button type="submit" class="submit icon-search">搜索</button>
-        </form>
-    </section>
-						<section class="widget">
-				<h3 class="widget-title">相关文章</h3> 
-				<ul class="widget-list">
-										<li><a href="http://pickcho.com/archives/graduation/" title="毕业季（一）">毕业季（一）</a></li>
-										<li><a href="http://pickcho.com/archives/apr-days/" title="四月">四月</a></li>
-						
-				</ul>
+	<include file="./Template/Default/single.html" />
 			</section>
 			
 </div>		</div>
     </div>
 </div>
-<footer id="footer">
-	<div class="container">
-		&copy; 2014 <a rel="nofollow" href="http://pickcho.com/">Cho's</a>.
-	</div>
-</footer>
+<include file="./Template/Default/foother.html" />
 </body>
 </html>

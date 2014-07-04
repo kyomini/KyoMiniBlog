@@ -8,52 +8,35 @@
       </div>
       <div>
         <nav id="nav-menu" class="clearfix">
-          <foreach name='menu' item='m'> <a class="<if condition='($m.mname eq 博客)'>current<else /></if>" href="{$m.url}"  title="{$m.mname}">{$m.mname}</a> </foreach>
+          <foreach name='menu' item='m'> <a class="<if condition='($m.mname eq 部落格)'>current<else /></if>" href="{$m.url}"  title="{$m.mname}">{$m.mname}</a> </foreach>
         </nav>
       </div>
     </div>
   </div>
 </header>
 <div id="body">
-<div class="container">
-<div class="col-group">
-<div class="col-8" id="main">
-<div class="res-cons">
-<foreach name='list' item='list'>
-<article class="post">
-<header>
-<h2 class="post-title"> <a href="{:U('/content/'.$list['aid'])}">{$list.title}</a> </h2>
-</heaer>
-<date class="post-meta"> 
-
-{$list.time|date='F,d Y',###} | <a href="{:U('/List/'.$list['cid'])}">{$list.cname}</a>
-</date>
-<div class="post-content"> {$list.content|subtext=300} </div>
-</article>
-</foreach>
-
-{$page}
+  <div class="container">
+    <div class="col-group">
+      <div class="col-8" id="main">
+        <div class="res-cons">
+          <foreach name='list' item='list'>
+            <article class="post">
+              <header>
+              <h2 class="post-title"> <a href="{:U('/content/'.$list['aid'])}">{$list.title}</a> </h2>
+              </heaer>
+              <date class="post-meta"> {$list.time|date='F,d Y',###} | <a href="{:U('/List/'.$list['cid'])}">{$list.cname}</a> </date>
+              <div class="post-content"> {$list.content|subtext=300} </div>
+            </article>
+          </foreach>
+          {$page} </div>
+      </div>
+      <div id="secondary"> 
+        <include file="./Template/Default/single.html" />
+       </div>
+    </div>
+  </div>
 </div>
 </div>
-
-
-<div id="secondary">
- {:W('Search/Index')}
- {:W('News/Index')}
-  
-  <section class="widget">
-    <h3 class="widget-title">文章归档</h3>
-    <ul class="widget-list">
-      <li><a href="http://pickcho.com/2014/05/">May 2014</a></li>
-      <li><a href="http://pickcho.com/2014/04/">April 2014</a></li>
-    </ul>
-  </section>
-    {:W('Admin/Index')}
-</div>
-</div>
-</div>
-</div>
-</div>
-<include file="./Template/Default/foother.html" /> 
+<include file="./Template/Default/foother.html" />
 </body>
 </html>

@@ -1,0 +1,8 @@
+﻿<section class="widget">
+  <h3 class="widget-title">最新留言</h3>
+  <ul class="widget-list">
+    <foreach name='Comment' item='Comment'>
+      <li><a href="{:U('/content/'.$Comment['aid'])}">{$Comment.content} [{$Comment.couname}]</a></li>
+    </foreach>
+  </ul>
+</section>

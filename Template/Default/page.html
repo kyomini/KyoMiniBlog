@@ -11,10 +11,7 @@
                             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="current " href="__ROOT__">博客</a>
-                    <foreach name='menu' item='m'>
-					<a href="{$m.url}" title="{$m.mname}">{$m.mname}</a>
-                    </foreach>
+          <foreach name='menu' item='m'> <a class="<if condition='($m.mname eq 關於)'>current<else /></if>" href="{$m.url}"  title="{$m.mname}">{$m.mname}</a> </foreach>
 				</nav>
             </div>
         </div>
@@ -27,11 +24,11 @@
 		<article class="post">
 			<header>
 				<h1 class="post-title">
-					<a href="http://pickcho.com/about/">{$page.title}</a>
+					{$one.title}
 				</h1>
 			</header>
 			<div class="page-content post-content">
-				<p>你好，我是cho。</p>
+				<p>	{$one.content}</p>
 			</div>
 		</article>
 		<div id="comments">
