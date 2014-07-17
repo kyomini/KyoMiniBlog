@@ -1,88 +1,53 @@
 <include file="Public:header" />
 <body>
 <include file="Public:nav" />
-
-  <div class="container">
-  
+<div class="container">
   <div class="page-header">
-  <h2> 歡迎使用 KyoMini 部落格</h2>
+    <h2> 歡迎使用 KyoMini 部落格</h2>
   </div>
   <div class="MiniBox1">
-  <p>這是一款基于 ThinkPHP 框架開發的極簡Blog程序，穩定、安全以及簡約風格一貫是KYOMINI團隊宗旨！</p>
-  <p>通過精心打磨的設計圖形，依然是你熟悉的面孔，更多了一份成熟與貼心。每一行代碼和每一個邏輯，都只爲離完美更進一步。</p>
-  <a href="http://www.kyomini.com/html/simple/" class="btn btn-info" >進入學習知識</a>
-  </div>
-
+    <p>這是一款基于 ThinkPHP 框架開發的極簡Blog程序，穩定、安全以及簡約風格一貫是KYOMINI團隊宗旨！</p>
+    <p>通過精心打磨的設計圖形，依然是你熟悉的面孔，更多了一份成熟與貼心。每一行代碼和每一個邏輯，都只爲離完美更進一步。</p>
+    <a href="http://www.kyomini.com/twstudy" class="btn btn-info" >進入學習知識</a> </div>
   <div class="row">
-
-  <div class="col-md-4">
-   <div class="page-header miniheight1">
-  <h4><span class="glyphicon glyphicon-refresh"></span> 我的數據</h4>
- 
-  </div>
-  <canvas id="canvas" height="250" width="250"></canvas>
-  <div class="canvascode">
-  <ul>
-  <li><span class="canvas1"></span>{$pagecount}項獨立頁</li>
-    <li><span class="canvas4"></span>{$articlecount}篇文章</li>
-      <li><span class="canvas3"></span>{$categorycount}個分類</li>
-        <li><span class="canvas2"></span>{$commentcount}條評論</li>
-  </ul>
-  </div>
-  </div>
-  
-  
-  
-  <div class="col-md-4">
-  <div class="page-header miniheight1">
-  <h4> <span class="glyphicon glyphicon-list-alt"></span> 最近文章</h4>
-  </div>
-  <ul>
-     <foreach name='articles' item='a'>
-    <li><span>{$a.time|date='Y-m-d',###}</span><a href="#">{$a.title}</a></li>
-      </foreach>
-  </ul>
-  </div>
-  
-  
-  
-  <div class="col-md-4">
-  <div class="page-header miniheight1">
-  <h4>  <span class="glyphicon glyphicon-inbox"></span> 最新评论</h4>
+    <div class="col-md-4">
+      <div class="page-header miniheight1">
+        <h4> 我的數據</h4>
+      </div>
+      <canvas id="canvas" height="250" width="250"></canvas>
+      <div class="canvascode">
+        <ul>
+          <li><span class="canvas1"></span>{$pagecount}項獨立頁</li>
+          <li><span class="canvas4"></span>{$articlecount}篇文章</li>
+          <li><span class="canvas3"></span>{$categorycount}個分類</li>
+          <li><span class="canvas2"></span>{$commentcount}條評論</li>
+        </ul>
+      </div>
     </div>
-  <ul>
-  
-     <foreach name='comment' item='b'>
-
-    <li><a href="#">[{$b.couname}]  {$b.content|substr=0,100}</a></li>
-      </foreach>
-
-  </ul>
-
-  
+    <div class="col-md-4">
+      <div class="page-header miniheight1">
+        <h4> 最近文章</h4>
+      </div>
+      <ul>
+        <foreach name='articles' item='a'>
+          <li><span>{$a.time|date='Y-m-d',###}</span><a href="#">{$a.title}</a></li>
+        </foreach>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <div class="page-header miniheight1">
+        <h4> 最新评论</h4>
+      </div>
+      <ul>
+        <foreach name='comment' item='b'>
+          <li><a href="#">[{$b.couname}]  {$b.content|substr=0,100}</a></li>
+        </foreach>
+      </ul>
+    </div>
   </div>
-  
-  
-  
-  
-  
-</div>
-  
-  
-  
-  
-  
-      <include file="Public:Copy" />
-
-  </div>
-  
-  
-  
-
-
-
-    <script src="[!Public]Js/Chart.js"></script>
-    <script>
+  <include file="Public:Copy" /> </div>
+<script src="[!Public]Js/Chart.js"></script> 
+<script>
 var doughnutData = [
 				{
 					value: {$pagecount},
@@ -106,7 +71,5 @@ var doughnutData = [
 
 	var myDoughnut = new Chart(document.getElementById("canvas").getContext("2d")).Doughnut(doughnutData);
     </script>
-
-
-  </body>
+</body>
 </html>
