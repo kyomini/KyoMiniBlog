@@ -10,5 +10,6 @@ use Think\Action;
         {
             $this->display('Widget:Admin');
         }
+
     }
 }

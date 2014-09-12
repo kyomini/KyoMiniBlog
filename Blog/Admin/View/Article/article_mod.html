@@ -1,0 +1,211 @@
+<include file="Public:Header" />
+<body>
+<include file="Public:Nav" /><span id="result"></span>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="container">
+  <!--内容开始-->
+  
+  <div class="page-header">
+  <h3>修改文章</h3>
+  </div>
+  <div class="MiniBox2">
+  
+  
+  
+  
+  
+  
+  <form role="form" method="post" action="{:U('update')}" enctype="multipart/form-data" >
+  <div class="MiniBox2_left">
+    <input type="text" class="form-control miniinput" placeholder="{$Think.lang._title_}" name="title"/ value="{$conn.title}">
+
+
+    </div>
+    <div class="MiniBox2_rifht">
+
+ <select name='cid' class="form-control miniinput2">
+		<volist name="clist" id="vo">
+            <eq name="vo['cid']" value="$datas['cid']">
+			<option value="{$vo['id']}" 
+            <eq name="datas['cid']" value="$vo['id']">selected="selected"</eq>>{$vo.html}{$vo['name']}
+            </option>
+			</eq>
+           <option value="{$vo.cid}">{$vo.html}{$vo['cname']}</option>
+		</volist>
+</select>
+
+
+ </div>
+
+
+   <textarea class="form-control miniinput3" rows="20" id="editor_id" name="content" >{$conn.content}</textarea>
+   
+   
+   
+      
+    <div id="write_high">
+   
+   <div class="overflow">
+   <input size="16" type="text" class="form-control form_datetime" placeholder="{$Think.lang._date_}" value="{$conn.time|date='Y-m-d H:NN',###}">
+   <input type="text" class="form-control miniinput4" placeholder="{$Think.lang._key_}" name="tag" value="{$conn.tag}">
+   <input type="text"  class="form-control miniinput8"  name="click" value="{$conn.click}">
+    <div class="miniinput10">
+   <input type="radio" name="hot" value = "1" id="optionsRadios1" checked> 
+   &nbsp;{$Think.lang._default_}&nbsp;
+<input type="radio" name="hot" value = "0" >
+   &nbsp;{$Think.lang._stick_}
+   </div>
+
+   </div>
+   
+   <div class="form-group">
+   <img src="__ROOT__/Uploads/thumbnail/{$conn.time|date='Ymd',###}/{$conn.img}"><input type="file" id="exampleInputFile" class="miniinput9" name="img" value="{$conn.img}"> 
+   </div>
+
+   <textarea class="form-control miniinput3" rows="3" name="summary" id="zhaiyao" placeholder="{$Think.lang._summary_}">{$conn.summary}</textarea>
+
+   </div>
+
+
+  
+   
+   
+   
+   
+   
+   
+               <input type="hidden" name="aid" value="{$conn.aid}">
+
+  <button type="submit" class="btn btn-info minibtn">{$Think.lang._update_}</button>
+  <div class="btn-group">
+  <button type="button" class="btn btn-info minibtn dropdown-toggle" data-toggle="dropdown">{$Think.lang._choice_} <span class="caret"></span></button>
+
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#" id="reset">{$Think.lang._rewrite_}</a></li>
+    <li>
+    <a href="#" id="write_high_open">{$Think.lang._senior_}</a>
+    <a href="#" id="write_high_close">{$Think.lang._close_}</a>
+    </li>
+  </ul>
+  </div>
+</form>
+  
+
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--内容结束--> 
+  <include file="Public:Copy" /> </div>
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+    <script charset="utf-8" src="[!Public]editor/kindeditor.js"></script>
+    <script charset="utf-8" src="[!Public]editor/lang/zh_CN.js"></script>
+<script>
+          var editor;
+			KindEditor.ready(function(K) {
+				
+				
+				editor = K.create('textarea[name="content"]', {
+				uploadJson : '[!Public]editor/php/upload_json.php',
+				fileManagerJson : '[!Public]editor/php/file_manager_json.php',               
+				themeType : 'simple',
+         langType:'{$Think.config.LANG_LIST}', 
+				allowFileManager : false,
+				allowPreviewEmoticons : true,//远程图片关闭
+				allowImageUpload : true, //显示上传图片按钮
+				afterBlur:function(){this.sync();},
+				items : ['source', '|', 'fullscreen', 'undo', 'redo', 'print', 'cut', 'copy', 'paste',
+'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',
+'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript',
+'superscript',
+'title', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
+'italic', 'underline', 'strikethrough', 'removeformat', '|', 'image',
+'flash', 'media', 'advtable',  'emoticons', 'link', 'unlink', 
+'|', 'baidumap','code','about'],
+
+});
+});
+</script>
+
+ 
+<script>
+
+ $("#reset").click(function(){
+ $("input, #zhaiyao").val(""); 
+ editor.html('');
+
+ 
+  });
+
+ $("#write_high_open").click(function(){
+ $("#write_high").fadeIn(); 
+ $("#write_high_open").hide(1); 
+ $("#write_high_close").show(1); 
+  });
+  
+  $("#write_high_close").click(function(){
+ $("#write_high").hide(); 
+ $("#write_high_close").hide(1); 
+ $("#write_high_open").show(1); 
+  });
+  
+    
+</script>
+
+
+</html>

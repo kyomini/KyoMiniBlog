@@ -1,0 +1,18 @@
+<include file="Public:header" />
+<body>
+<include file="Public:nav" />
+<div class="container">
+  <div class="page-header">
+    <h3>{$Think.lang.Add_nav}</h3>
+  </div>
+  <div class="MiniBox2">
+    <form method="post" action="{:U('update')}">
+      <input type="text" name="mname" class="form-control miniinput" placeholder="{$Think.lang.Nav_name}" value="{$menu.mname}"/>
+      <input type="text"  name="url" class="form-control miniinput" placeholder="{$Think.lang.Nav_add}" value="{$menu.url}"/>
+      <input type="text" name="sort" class="form-control miniinput2" placeholder="排序" value="{$menu.sort}"/>
+      <input type="hidden" name="mid" value="{$menu.mid}">
+      <button type="submit" class="btn btn-info ">{$Think.lang._revise_}</button>
+    </form>
+  </div>
+  <include file="Public:Copy" /> </div>
+</html>

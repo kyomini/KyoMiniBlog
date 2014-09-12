@@ -1,0 +1,21 @@
+<include file="Public:Header" />
+<body>
+<include file="Public:Nav" />
+<div class="container"> 
+  
+  <div class="page-header">
+    <h3>{$Think.lang._add_}{$Think.lang.Classify}</h3>
+  </div>
+  <div class="MiniBox2">
+    <form method="post" action="{:U('addCategory')}">
+      <input type="text" class="form-control miniinput" placeholder="{$Think.lang.Classify}{$Think.lang._name_}" name="cname"/>
+      <input type="text" class="form-control miniinput" placeholder="分类标识" name="urlname"/>
+
+      <input type="text" class="form-control miniinput" placeholder="{$Think.lang.Classify}{$Think.lang._description_}" name="cdescription"/>
+      <input type="hidden" name="pid" value="{$pid}">
+      <button type="submit" class="btn btn-info ">{$Think.lang._add_}{$Think.lang.Classify}</button>
+    </form>
+  </div>
+  
+  <include file="Public:Copy" /> </div>
+</html>

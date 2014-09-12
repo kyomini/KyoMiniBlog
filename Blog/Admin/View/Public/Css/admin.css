@@ -1,0 +1,378 @@
+@charset "utf-8";
+/* 臺灣繁體中文 */
+
+
+
+/*重置总导航高度*/
+.navbar {
+	min-height: 40px;
+	padding-right: 20px;
+}
+/*重置导航标题高度*/
+.navbar-brand {
+	padding: 10px 15px;
+}
+/*重置导航连接左侧距离*/	
+.nav {
+	margin-left: 10px;
+}
+/*重置导航连接高度*/	
+.nav > li > a {
+	position: relative;
+	display: block;
+	padding: 10px 10px;
+	font-family: "微软雅黑", "Microsoft JhengHei";
+}
+/*重置导航字体*/
+.navbar-brand {
+	font-family: "微软雅黑", "Microsoft JhengHei";
+	font-size: 16px;
+}
+/*重置导航下拉字体与宽度*/	
+.dropdown-menu {
+	min-width: 130px;
+	font-size: 12px;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #5bc0de;
+}
+/*所有布局主体盒子*/
+.container {
+	overflow: hidden;
+	margin: 50px auto 0 auto;
+}
+.page-header {
+	margin: 50px 0 20px 0;
+	padding-bottom: 25px;
+}
+.page-header h2 {
+	margin: 0px;
+	font-family: "微软雅黑", "Microsoft JhengHei";
+}
+.page-header h3 {
+	margin: 0px;
+	font-family: "微软雅黑", "Microsoft JhengHei";
+}
+.container h4 {
+	font-family: "微软雅黑", "Microsoft JhengHei";
+}
+/*HOME页中间*/	
+
+.page-header h4 {
+	margin: 0px;
+	font-family: "微软雅黑", "Microsoft JhengHei";
+	font-size: 16px;
+	font-weight: bold;
+}
+.MiniBox1 p {
+	line-height: 25px;
+}
+.MiniBox1 a {
+	margin-top: 5px;
+}
+.MiniBox1 {
+	border-bottom: #EEEEEE solid 1px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+/*设置按钮*/	
+.btn {
+	border-radius: 0px;
+	margin-left: 0px;
+}
+.minibtn {
+	margin-top: 20px;
+}
+.row {
+	margin-top: 20px;
+}
+.miniheight1 {
+	margin-top: 5px;
+}
+.col-md-4 ul {
+	list-style-type: none;
+	margin: -10px 0 0 0;
+	padding: 0px;
+}
+.col-md-4 li span {
+	margin-right: 10px;
+	padding-right: 15px;
+	font-family: "微软雅黑", "Microsoft JhengHei";
+	font-size: 12px;
+	line-height: 12px;
+}
+.col-md-4 li {
+	line-height: 40px;
+	border-bottom: #eeeeee dashed 1px;
+	font-size: 13px;
+}
+.col-md-4 li a {
+	color: #333;
+	text-decoration: none;
+}
+.col-md-4 li a:hover, .col-md-4 li a:focus {
+	color: #333;
+	text-decoration: none;
+}
+.canvascode {
+	float: right;
+	margin-right: 10px;
+}
+.canvascode ul {
+	margin-top: 5px;
+}
+.canvascode li {
+	border: none;
+	line-height: 12px;
+	font-family: "微软雅黑", "Microsoft JhengHei";
+	height: 20px;
+	display: block;
+	margin-bottom: 20px;
+}
+span.canvas1, span.canvas2, span.canvas3, span.canvas4 {
+	height: 13px;
+	display: block;
+	float: left;
+}
+span.canvas1 {
+	background: #8bd7ac;
+}
+span.canvas2 {
+	background: #46BFBD;
+}
+span.canvas3 {
+	background: #ffc467;
+}
+span.canvas4 {
+	background: #f78d98;
+}
+.footer {
+	border-top: 1px solid #eee;
+	margin-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.footer a {
+	color: #333;
+	text-decoration: none;
+}
+.footer li a:hover, .footer li a:focus {
+	color: #333;
+	text-decoration: none;
+}
+.footer p {
+	float: left;
+}
+.footer span {
+	float: right;
+}
+<!--
+input控制-->  .form-control {
+	display: block;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.428571429;
+	color: #555555;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #cccccc;
+}
+.miniinput {
+	width: 500px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	border-radius: 0px;
+}
+.miniinput2 {
+	width: 200px;
+	border-radius: 0px;
+	margin-bottom: 20px;
+}
+.miniinput3 {
+	margin-bottom: 20px;
+	border-radius: 0px;
+}
+.miniinput4 {
+	float: left;
+	width: 40%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border-radius: 0px;
+}
+.miniinput5 {
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 0px;
+}
+.MiniBox2_left {
+	float: left;
+}
+.MiniBox2_right {
+	float: right;
+}
+/*高级*/
+#write_high {
+	display: none;
+}
+.form_datetime {
+	border-radius: 0px;
+	width: 20%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+.overflow {
+	overflow: hidden;
+}
+#write_high_close {
+	display: none;
+}
+/*文章*/
+#border_top {
+	border-top: none;
+}
+.table {
+	margin-top: -15px;
+}
+table td {
+	text-align: center;
+}
+.biaoti {
+	text-align: left;
+}
+/*.pagination {
+	margin-top:0px;
+  border-radius: 0px;
+  float:right;
+  font-size:12px;
+}	
+.pagination div{
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  color:#666;
+}
+
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+	 color:#666;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+*/
+.pagination {
+	display: inline-block;
+	padding-left: 0;
+	margin: 20px 0;
+	border-radius: 4px;
+	float: right;
+}
+.pagination > li {
+	display: inline;
+}
+.pagination a, .pagination span {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	margin-left: -1px;
+	line-height: 1.428571429;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+.pagination a:hover,  .pagination span:focus {
+	background-color: #eeeeee;
+}
+.pagination > .current, .pagination > .current span,  .pagination > .current span:focus {
+	z-index: 2;
+	color: #ffffff;
+	cursor: default;
+	background-color: #428bca;
+	border-color: #428bca;
+}
+.sousuo {
+	float: left;
+	margin: 0 0 0 10px;
+}
+.input-append {
+	margin-bottom: 20px;
+	width: 100%;
+	overflow: hidden;
+	height: 50px;
+}
+.miniinput6 {
+	float: left;
+	width: 30%;
+	margin: 0px;
+	border-radius: 0px;
+}
+.miniinput7 {
+	width: 30px;
+	text-align: center;
+	border: none;
+}
+.miniinput8 {
+	float: left;
+	width: 50px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border-radius: 0px;
+}
+.miniinput9 {
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	border-radius: 0px;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	border: none;
+}
+.miniinput10 {
+	margin: 29px 0 20px 30px;
+	width: 200px;
+	float: left;
+}
+.miniinput10, input {
+	font-size: 12px;
+}
+#list {
+	font-size: 12px;
+}
+.table-textcenter {
+	text-align: center;
+}
+/*判断*/
+.result {
+	display: none;
+}
+.alert {
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: -10px;
+	border: 1px solid transparent;
+	border-radius: 0px;
+	position: absolute;
+	width: 100%;
+	z-index: 99;
+	height: 36px;
+	overflow: hidden;
+}
+.alert p {
+	text-align: center;
+	font-size: 12px;
+}
+/*手指*/
+td, .hand {
+	cursor: hand;
+	cursor: pointer;
+}
+h2.form-signin-heading {
+	font-family: "Microsoft JhengHei";
+}

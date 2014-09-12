@@ -1,0 +1,9 @@
+#
+# robots.txt for KyoMini Blog 2014
+#
+User-agent: * 
+Disallow: /Blog
+Disallow: /Core
+Disallow: /Template
+Disallow: /Uploads
+Disallow: /config.inc.php

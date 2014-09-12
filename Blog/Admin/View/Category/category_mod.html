@@ -1,0 +1,21 @@
+<include file="Public:Header" />
+<body>
+<include file="Public:Nav" />
+<div class="container"> 
+  
+  <div class="page-header">
+    <h3>{$Think.lang._revise_}{$Think.lang.Classify}</h3>
+  </div>
+  <div class="MiniBox2">
+    <form method="post" action="{:U('update')}">
+      <input type="text" class="form-control miniinput" placeholder="{$Think.lang.Classify}{$Think.lang._name_}" name="cname" value="{$cate.cname}"/>
+      <input type="text" class="form-control miniinput" placeholder="分类标识" name="cname" value="{$cate.urlname}"/>
+
+      <input type="text" class="form-control miniinput" placeholder="{$Think.lang.Classify}{$Think.lang._description_}" name="cdescription" value="{$cate.cdescription}"/>
+      <input type="hidden" name="cid" value="{$cate.cid}">
+      <button type="submit" class="btn btn-info ">{$Think.lang._revise_}</button>
+    </form>
+  </div>
+  
+  <include file="Public:Copy" /> </div>
+</html>

@@ -1,0 +1,34 @@
+<include file="Public:Header" />
+<body>
+<include file="Public:Nav" />
+<div class="container">
+  <div class="page-header">
+    <h3>{$Think.lang.Navigation}</h3>
+  </div>
+  <div class="input-append"> <a href="{:U('add')}" class="btn btn-info sousuo">{$Think.lang.Add_nav}</a> </div>
+  <div class="MiniBox2">
+    <form method="post" action="{:U('sortupdata')}">
+      <table width="100%" border="0" class="table table-hover" id="list" >
+        <tr>
+          <td width="5%"><b>{$Think.lang._Sort_}</b></td>
+          <td width="20%"><b>{$Think.lang.Navigation}</b></td>
+          <td width="60%" class="biaoti"><b>{$Think.lang.Add}</b></td>
+          <td width="15%"><b>{$Think.lang._operation_}</b></td>
+        </tr>
+        <foreach name='menu' item='m'>
+          <tr>
+            <td><input type="text" value="{$m.sort}" class="miniinput7" name="{$m.mid}"></td>
+            <td>{$m.mname}</td>
+            <td class="biaoti">{$m.url}</td>
+            <td><span onclick="location.href='__URL__/mod/id/{$m.mid}'">{$Think.lang._revise_}</span> <span onclick="if(confirm('{$Think.lang._suredel_}?'))window.location.href='__URL__/del/id/{$m.mid}'">{$Think.lang._del_}</span></td>
+          </tr>
+        </foreach>
+        
+          <td colspan="4" class="biaoti" style="padding-top:25px;
+    "><button type="submit" class="btn btn-success">{$Think.lang.Upda_sort}</button></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  <include file="Public:Copy" /> </div>
+</html>

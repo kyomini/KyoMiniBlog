@@ -1,0 +1,45 @@
+<include file="Public:header" />
+<body>
+<include file="Public:nav" /> 
+<span id="result"></span>
+<div class="container">
+  <div class="page-header">
+    <h3>{$Think.lang.Basic_set}</h3>
+  </div>
+  <form class="form-horizontal" role="form" method="post" action="{:U('Update')}"  id="forms">
+    <div class="MiniBox2">
+      <label for="exampleInputEmail1">{$Think.lang.Blog_name}</label>
+      <input type="text" class="form-control miniinput" name="blogname" value="{$Think.config.blogname}">
+      <label for="exampleInputEmail1">{$Think.lang.Blog_subtitle}</label>
+      <input type="text" class="form-control miniinput"  name="subtitle" value="{$Think.config.subtitle}">
+      <label for="exampleInputEmail1">{$Think.lang.Blog_keywords}</label>
+      <input type="text" class="form-control miniinput" name="keywords" value="{$Think.config.keywords}">
+      <label for="exampleInputEmail1">{$Think.lang.Blog_description}</label>
+      <input type="text" class="form-control miniinput" name="description" value="{$Think.config.description}">
+      <label for="exampleInputEmail1">{$Think.lang.Blog_copyright}</label>
+      <input type="text" class="form-control miniinput" name="copy" value="{$Think.config.copy}">
+      <button type="submit" class="btn btn-info ">{$Think.lang.Update_set}</button>
+    </div>
+  </form>
+  <!--内容结束-->
+    <include file="Public:Copy" />
+
+  </div>
+<script src="[!Public]Js/jquery.form.js"></script> 
+<script language="javascript" type="text/javascript">
+	$('#forms').ajaxForm({
+	  success:function(data){
+		  var Mini = "";
+		  if(data.status == 1){
+			 Mini = "<div class='alert alert-success'>"+data.info+"</div>";
+			 }else{
+				 Mini = "<div class='alert alert-danger'>"+data.info+"</div>";
+				 }
+		  $('#result').html(Mini);
+		  setTimeout(function(){$('#result').html('').fadeOut();},3000);
+		  },
+	  dataType:'json'
+	  }); 
+</script>
+</body>
+</html>

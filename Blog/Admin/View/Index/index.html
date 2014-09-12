@@ -1,0 +1,75 @@
+<include file="Public:header" />
+<body>
+<include file="Public:nav" />
+<div class="container">
+  <div class="page-header">
+    <h2>Kyomini Blog</h2>
+  </div>
+  <div class="MiniBox1">
+    <p>这是一款基于 ThinkPHP 框架开发的极简Blog程序，稳定、安全以及简约风格一贯是KYOMINI团队宗旨！</p>
+    <p>通过精心打磨的设计图形，依然是你熟悉的面孔，更多了一份成熟与贴心。每一行代码和每一个逻辑，都只爲离完美更进一步。</p>
+    <a href="http://www.kyomini.com" class="btn btn-info" >进入官网</a> </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="page-header miniheight1">
+        <h4> 我的数据</h4>
+      </div>
+      <canvas id="canvas" height="250" width="250"></canvas>
+      <div class="canvascode">
+        <ul>
+          <li><span class="canvas1"></span>{$pagecount}项独立页</li>
+          <li><span class="canvas4"></span>{$articlecount}篇文章</li>
+          <li><span class="canvas3"></span>{$categorycount}个分类</li>
+          <li><span class="canvas2"></span>{$commentcount}条评论</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="page-header miniheight1">
+        <h4> 最近文章</h4>
+      </div>
+      <ul>
+        <foreach name='articles' item='a'>
+          <li><span>{$a.time|date='Y-m-d',###}</span><a href="#">{$a.title}</a></li>
+        </foreach>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <div class="page-header miniheight1">
+        <h4> 最新评论</h4>
+      </div>
+      <ul>
+        <foreach name='comment' item='b'>
+          <li><a href="#">[{$b.couname}]  {$b.content|substr=0,100}</a></li>
+        </foreach>
+      </ul>
+    </div>
+  </div>
+  <include file="Public:Copy" /> </div>
+<script src="[!Public]Js/Chart.js"></script> 
+<script>
+var doughnutData = [
+				{
+					value: {$pagecount},
+					color:"#8bd7ac"
+				},
+				{
+					value : {$articlecount},
+					color : "#f78d98"
+				},
+				{
+					value : {$categorycount},
+					color : "#ffc467"
+				},
+				{
+					value : {$commentcount},
+					color : "#46BFBD"
+				},
+
+			
+			];
+
+	var myDoughnut = new Chart(document.getElementById("canvas").getContext("2d")).Doughnut(doughnutData);
+    </script>
+</body>
+</html>

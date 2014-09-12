@@ -1,0 +1,48 @@
+﻿<include file="./Template/Default/header.html" /> 
+<body>
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="col-group">
+            <div class="site-name">
+                <a id="logo" href="__ROOT__">
+                   {$Think.config.blogname}
+                </a>
+                                    <h1>{$Think.config.blogname}</h1>
+                            </div>
+            <div>
+                <nav id="nav-menu" class="clearfix">
+          <foreach name='menu' item='m'> 
+          <a class="
+          <if condition='($m.mname eq 联系)'>current<else /></if>" 
+          
+          href="__ROOT__/{$m.url}"  title="{$m.mname}">{$m.mname}</a> 
+          
+          </foreach>
+				</nav>
+            </div>
+        </div>
+    </div>
+</header>
+<div id="body">
+    <div class="container">
+        <div class="col-group"><div class="col-8" id="main">
+	<div class="res-cons">
+		<article class="post">
+			<header>
+				<h1 class="post-title">
+					{$one.title}
+				</h1>
+			</header>
+			<div class="page-content post-content">
+				<p>	{$one.content|htmlspecialchars_decode}</p>
+			</div>
+		</article>
+		<div id="comments">
+                </div>	</div>
+</div>
+		</div>
+    </div>
+</div>
+<include file="./Template/Default/foother.html" /> 
+</body>
+</html>

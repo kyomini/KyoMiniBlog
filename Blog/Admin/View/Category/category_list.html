@@ -1,0 +1,41 @@
+<include file="Public:Header" />
+<body>
+<include file="Public:Nav" />
+<div class="container">
+  <div class="page-header">
+    <h3>{$Think.lang.Classify}</h3>
+  </div>
+  <div class="input-append"> <a href="{:U('Category_add')}" class="btn btn-info sousuo">{$Think.lang._add_}{$Think.lang.Classify}</a> </div>
+  <div class="MiniBox2">
+    <table width="100%" border="0" class="table table-hover" id="list" >
+      <tr>
+        <td width="5%"><b>ID</b></td>
+        <td width="15%" style="text-align: left;
+          padding-left:80px;"><b>{$Think.lang.Classify}</b></td>
+        <td width="10%" style="text-align: left;
+          padding-left:80px;"><b>{$Think.lang._biaozhi_}</b></td>
+        <td width="10%" ><b>{$Think.lang._jibie_}</b></td>
+        <td width="35%" class="biaoti"><b>{$Think.lang._description_}</b></td>
+        <td width="15%"><b>{$Think.lang._operation_}</b></td>
+      </tr>
+      <foreach name='cate' item='v'>
+        <tr>
+          <td>{$v.cid}</td>
+          <td style="text-align: left;
+          padding-left:80px;">{$v.html}{$v.cname}</td>
+          <td style="text-align: left;
+          padding-left:80px;">{$v.urlname}</td>
+          <td>{$v.level}</td>
+          <td class="biaoti">{$v.cdescription}</td>
+          <td>
+            <span onclick="location.href='{:U('Category_add',array('pid'=>$v['cid']))}'">增加子类</span>
+          <span onclick="location.href='__URL__/mod/id/{$v.cid}'">{$Think.lang._editor_}</span> <span onclick="if(confirm('{$Think.lang._suredel_}'))window.location.href='__URL__/del/id/{$v.cid}'">删除</span></td>
+        </tr>
+      </foreach>
+      <tr>
+        <td colspan="6" class="biaoti" style="padding-top:25px;"></td>
+      </tr>
+    </table>
+  </div>
+    <include file="Public:Copy" /> </div>
+</html>

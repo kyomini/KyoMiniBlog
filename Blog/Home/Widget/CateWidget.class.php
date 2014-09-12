@@ -1,14 +1,16 @@
 <?php
-namespace Home\Widget {
+namespace Home\Widget;
+
 use Think\Action;
-    class CateWidget extends Action
+use Think\Category;
+class CateWidget extends Action
+{
+    public function Index()
     {
-        public function Index()
-        {
-            $Cate = M('Category')->order('cid DESC')->limit('10')->select();
-            $this->assign('Cate', $Cate);
-            S('index', $Cate, 10);
-            $this->display('Widget:Cate');
-        }
+        $nva = M('category')->select();
+        $cate = category::zifenleis($nva);
+        $this->assign('cate', $cate);
+        S('index', $cate, 10);
+        $this->display('Widget:Cate');
     }
 }

@@ -1,0 +1,63 @@
+<div class="footer">
+        <p>&copy; 2014 <a href="#">www.kyomini.com</a> All Rights Reserved.</p>
+        <span>KyoMini V0.1</span>
+</div>
+<script src="[!Public]Js/jquery-1.11.0.min.js"></script> 
+<script src="[!Public]Js/bootstrap.min.js"></script> 
+  <div class="modal fade" id="password" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">修改密码</h4>
+      </div>
+      <form method="post" action="__MODULE__/Index/update">
+      <div class="modal-body">
+     
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+   <table width="100%">
+        	<tr>
+            	<td width="33%" align="right"><span class="cName">登陆帐号</span></td>
+                <td width="67%" style="height:65px;
+                text-align:left">{$user.name}
+                
+                
+                </td>
+            </tr>
+            <tr>
+            	<td align="right"><span class="cName">修改您称</span></td>
+                <td>      <input type="text" class="form-control miniinput2" name="nickname" value="{$user.nickname}">
+</td>
+            </tr>
+            <tr>
+            	<td align="right"><span class="cName">修改密码</span></td>
+                <td>      <input type="text" class="form-control miniinput2" name="password">
+</td>
+            </tr>
+        </table>
+
+
+      </div>
+      <div class="modal-footer">
+    <input type="hidden" name="id" value="{$user.id}" />
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="submit" class="btn btn-primary">修改</button>
+      </div>
+      </form>
+    </div><!-- /.modal-content -->
+  
+    
+    
+    
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

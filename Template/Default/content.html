@@ -40,11 +40,11 @@
                 {$blog.time|date='m.d, Y',###}
                 		</date>
 			<div class="post-content">
-				{$blog.content}
+				{$blog.content|htmlspecialchars_decode}
 			</div>
 		</article>
 		<div id="comments">
-        	<span class="widget-title">僅有 {$comcount} 條評論</span>
+        	<span class="widget-title">仅有 {$comcount} 条评论</span>
     <ol class="comment-list">
     
      <foreach name='com' item='com'>
@@ -69,7 +69,7 @@
 </ol>                <div id="respond-post-7" class="respond">
         <div class="cancel-comment-reply">
         <a id="cancel-comment-reply-link" href="http://pickcho.com/archives/graduation2/#respond-post-7" rel="nofollow" style="display:none" onClick="return TypechoComment.cancelReply();">取消回复</a>        </div>
-    	<span id="response" class="widget-title">添加新評論</span>
+    	<span id="response" class="widget-title">添加新评论</span>
     	<form method="post" action="{:U('add')}" id="comment-form">
 			<div class="col1">
 			<p>
@@ -78,15 +78,15 @@
 			</div>
 			<div class="col2">
                 		<p>
-                <label for="author" class="required">稱呼</label>
+                <label for="author" class="required">称呼</label>
     			<input type="text" name="couname" id="author" class="text" value="" />
     		</p>
     		<p>
-                <label for="mail" class="required">郵箱</label>
+                <label for="mail" class="required">邮箱</label>
     			<input type="email" name="email" id="mail" class="text" value="" />
     		</p>
             <p>
-            <label for="verify" class="required">驗證碼</label>
+            <label for="verify" class="required">验证码</label>
         <input type="verify" class="text" name="verify" style="height:20px;
         margin-bottom:8px;
         padding-left:60px;
@@ -97,7 +97,7 @@
                 		<p>
                  <input type="hidden" name="aid" value="{$blog.aid}">
 
-                <button type="submit" class="submit">提交評論</button>
+                <button type="submit" class="submit">提交评论</button>
             </p>
 			</div>
 			<div class="clear"></div>

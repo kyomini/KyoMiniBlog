@@ -1,0 +1,68 @@
+﻿<include file="Public:header" />
+<body>
+<include file="Public:nav" />
+<div class="container">
+  <div class="page-header">
+    <h3>{$Think.lang.Recovery}</h3>
+  </div>
+  <div class="input-append"> <a id="export" class="btn btn-info "href="{:U('/Admin/Database')}" >{$Think.lang.Return_backup}</a> </div>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th width="200" class="table-textcenter">{$Think.lang.Backup_name}</th>
+        <th width="80" class="table-textcenter">{$Think.lang.volume}</th>
+        <th width="80" class="table-textcenter">{$Think.lang.Compression}</th>
+        <th width="80" class="table-textcenter">{$Think.lang.Data_size}</th>
+        <th width="200" class="table-textcenter">{$Think.lang.backup_time}</th>
+        <th class="table-textcenter">{$Think.lang.State}</th>
+        <th width="120" class="table-textcenter">{$Think.lang._operation_}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <volist name="list" id="data">
+        <tr>
+          <td>{$data.time|date='Ymd-His',###}</td>
+          <td>{$data.part}</td>
+          <td>{$data.compress}</td>
+          <td>{$data.size|format_bytes}</td>
+          <td>{$key}</td>
+          <td>-</td>
+          <td class="action"><a class="db-import" href="{:U('import?time='.$data['time'])}">{$Think.lang.Reduction}</a>&nbsp; <a class="ajax-get confirm" href="{:U('/Admin/Import/del/time/'.$data['time'])}">{$Think.lang._del_}</a></td>
+        </tr>
+      </volist>
+    </tbody>
+  </table>
+  <include file="Public:Copy" /> </div>
+<script type="text/javascript">
+        $(".db-import").click(function(){
+            var self = this, status = ".";
+            $.get(self.href, success, "json");
+            window.onbeforeunload = function(){ return "{$Think.lang.Restoring_database}" }
+            return false;
+        
+            function success(data){
+                if(data.status){
+                    if(data.gz){
+                        data.info += status;
+                        if(status.length === 5){
+                            status = ".";
+                        } else {
+                            status += ".";
+                        }
+                    }
+                    $(self).parent().prev().text(data.info);
+                    if(data.part){
+                        $.get(self.href, 
+                            {"part" : data.part, "start" : data.start}, 
+                            success, 
+                            "json"
+                        );
+                    }  else {
+                        window.onbeforeunload = function(){ return null; }
+                    }
+                } else {
+                    alert(data.info);
+                }
+            }
+        });
+    </script> 

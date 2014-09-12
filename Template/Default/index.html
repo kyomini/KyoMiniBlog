@@ -8,13 +8,20 @@
       </div>
       <div>
         <nav id="nav-menu" class="clearfix">
-          <foreach name='menu' item='m'> <a class="<if condition='($m.mname eq 部落格)'>current<else /></if>" href="{$m.url}"  title="{$m.mname}">{$m.mname}</a> </foreach>
+          <foreach name='menu' item='m'> 
+          <a class="
+          <if condition='($m.mname eq 首页)'>current</if>" href="{$m.url}"  title="{$m.mname}">{$m.mname}</a> 
+          </foreach>
         </nav>
+        
       </div>
     </div>
   </div>
 </header>
 <div id="body">
+
+
+
   <div class="container">
     <div class="col-group">
       <div class="col-8" id="main">
@@ -25,7 +32,7 @@
               <h2 class="post-title"> <a href="{:U('/content/'.$list['aid'])}">{$list.title}</a> </h2>
               </heaer>
               <date class="post-meta"> {$list.time|date='F,d Y',###} | <a href="{:U('/List/'.$list['cid'])}">{$list.cname}</a> </date>
-              <div class="post-content"> {$list.content|subtext=300} </div>
+              <div class="post-content"> {$list.content|htmlspecialchars_decode|subtext=300} </div>
             </article>
           </foreach>
           {$page} </div>

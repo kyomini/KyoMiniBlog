@@ -1,0 +1,66 @@
+﻿<include file="./Template/Default/header.html" />
+<body>
+<header id="header" class="clearfix">
+  <div class="container">
+    <div class="col-group">
+      <div class="site-name"> <a id="logo" href="__ROOT__"> {$Think.config.blogname} </a>
+        <h1>{$Think.config.blogname}</h1>
+      </div>
+      <div>
+         <nav id="nav-menu" class="clearfix">
+          <foreach name='menu' item='m'> <a class="<if condition='($m.mname eq 博客)'>current<else /></if>" href="{$m.url}"  title="{$m.mname}">{$m.mname}</a> </foreach>
+         </nav>      
+         </div>
+    </div>
+  </div>
+</header>
+<div id="body">
+
+
+
+
+
+
+  <div class="container">
+    <div class="col-group">
+      <div class="col-8" id="main">
+        <div class="res-cons">
+          <article class="post">
+            <div class="post-content-pages">
+            
+            
+
+            
+              <div id="archives">
+                <div class="al_year">{$cate.cname}</div>
+                <ul class="al_mon_list">
+                
+                      <foreach name='Search' item='search'>
+
+                  <li>{$search.time|date='F/d Y',###}<a href="{:U('/content/'.$search['aid'])}">{$search.title}</a> </li>
+                       </foreach>
+                       
+                       
+                       
+                </ul>
+                </li>
+                </ul>
+              </div>
+              
+        
+
+              
+
+              
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer id="footer">
+  <div class="container"> &copy; 2014 <a rel="nofollow" href="http://pickcho.com/">Cho's</a>. </div>
+</footer>
+</body>
+</html>

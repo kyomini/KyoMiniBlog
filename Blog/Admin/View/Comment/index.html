@@ -1,0 +1,51 @@
+<include file="Public:Header" />
+<body>
+<include file="Public:Nav" />
+<div class="container"> 
+  
+  <div class="page-header">
+    <h3>{$Think.lang._Comment_}</h3>
+  </div>
+  <div class="MiniBox2">
+    <form method="post" action="__URL__/del">
+      <table width="100%" border="0" class="table table-hover" id="list" >
+        <tr>
+          <td width="5%" id="border_top"><input type="checkbox"  id="all"></td>
+          <td width="20%" id="border_top"><b>{$Think.lang._Time_}</b></td>
+          <td width="40%"class="biaoti" id="border_top"><b>{$Think.lang.content_review}</b></td>
+          <td width="10%" id="border_top"><b>{$Think.lang._submitter_}</b></td>
+          <td width="10%" id="border_top"><b>{$Think.lang._Reply_}</b></td>
+          <td width="30%" id="border_top"><b>{$Think.lang._operation_}</b></td>
+        </tr>
+        <foreach name='list' item='vo'>
+          <tr>
+            <td><input type="checkbox"  value="{$vo.coid}" name="{$vo.coid}"></td>
+            <td>{$vo.time|date='Y-m-d',###}</td>
+            <td class="biaoti">{$vo.content}</td>
+            <td>{$vo.couname}</td>
+            <td>{$vo.respond}</td>
+            <td><span onclick="location.href='__URL__/mod/id/{$vo.coid}'">{$Think.lang._Reply_} </span> <span onclick="if(confirm('{$Think.lang._suredel_}?'))window.location.href='__URL__/del/id/{$vo.coid}'"> {$Think.lang._del_}</span></td>
+          </tr>
+        </foreach>
+        <tr>
+          <td colspan="6" class="biaoti" style="padding-top:25px;
+    "><button type="submit" class="btn btn-success">{$Think.lang._del_}</button>
+            {$page} </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  
+  <include file="Public:Copy" /> </div>
+<script>
+    $("#all").on('click', function() {
+    $(this)
+    .parents('table') 
+    .find(':checkbox')                     
+    .prop('checked', $(this).is(':checked'));
+})
+    </script> 
+<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script>$('#myModal').modal(options);</script>
+</html>

@@ -1,0 +1,17 @@
+<include file="Public:header" />
+<body>
+<include file="Public:nav" />
+<div class="container">
+  <div class="page-header">
+    <h3>{$Think.lang.Add_nav}</h3>
+  </div>
+  <div class="MiniBox2">
+    <form method="post" action="{:U('addmenu')}">
+      <input type="text" name="mname" class="form-control miniinput" placeholder="{$Think.lang.Nav_name}" />
+      <input type="text"  name="url" class="form-control miniinput" placeholder="{$Think.lang.Nav_add}" />
+      <input type="text" name="sort" class="form-control miniinput2" placeholder="{$Think.lang._Sort_}" />
+      <button type="submit" class="btn btn-info ">{$Think.lang.Add_nav}</button>
+    </form>
+  </div>
+  <include file="Public:Copy" /> </div>
+</html>

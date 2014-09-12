@@ -1,9 +1,20 @@
-﻿<section class="widget">
+﻿
+<section class="widget">
 
 <h3 class="widget-title">其它</h3>
     <ul class="widget-list">
-      <li><a href="__ROOT__/Admin">登陸</a></li>
+       <if condition="($Think.session.id eq 1)">
+       
+                                <li><a  href="{:U('Admin/Index/login_out')}">退出后台</a></li>
+                          <else />
+                                <li><a href="__ROOT__/Admin">登陆后台</a></li>
+       </if>
+      
+      
+      
       <li><a href="http://www.kyomini.com">KyoMini</a></li>
 
 </ul>
+<div style="display:none"><script src="http://s5.cnzz.com/z_stat.php?id=1253237888&web_id=1253237888" language="JavaScript"></script></div>
+
 </section>

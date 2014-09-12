@@ -1,0 +1,9 @@
+﻿<section class="widget">
+  <h3 class="widget-title">文章归档</h3>
+  <ul class="widget-list">
+    <foreach name='filing' item='filing'>
+      <li><a href="{:U('/list/'.$filing['aid'])}">{$filing.time|date='F/d Y',###}</a></li>
+    </foreach>
+   
+  </ul>
+</section>

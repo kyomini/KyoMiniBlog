@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* Login CSS 中国大陆版 */
+
+body {
+  padding-top: 100px;
+  padding-bottom: 40px;
+
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin{
+  margin-bottom: 10px;
+}
+.form-signin{
+  font-weight: normal;
+}
+h2.form-signin-heading {
+	padding-bottom:20px;
+	font-family:Arial;
+	
+	}
+.form-signin .form-control {
+  position: relative;
+  font-size: 14px;
+  height: 42px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+   margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="verify"] {
+  margin-bottom: 30px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+img.verify{
+	position:relative;
+	top:-72px;
+	left:0px;
+	z-index:99;
+	float:right;
+	border-bottom-right-radius: 4px;
+    cursor:pointer;
+	}

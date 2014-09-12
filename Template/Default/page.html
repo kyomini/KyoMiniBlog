@@ -11,7 +11,13 @@
                             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
-          <foreach name='menu' item='m'> <a class="<if condition='($m.mname eq 關於)'>current<else /></if>" href="__ROOT__/{$m.url}"  title="{$m.mname}">{$m.mname}</a> </foreach>
+          <foreach name='menu' item='m'> 
+          <a class="
+          <if condition='($m.mname eq 关于)'>current<else /></if>" 
+          
+          href="__ROOT__/{$m.url}"  title="{$m.mname}">{$m.mname}</a> 
+          
+          </foreach>
 				</nav>
             </div>
         </div>
@@ -28,7 +34,7 @@
 				</h1>
 			</header>
 			<div class="page-content post-content">
-				<p>	{$one.content}</p>
+				<p>	{$one.content|htmlspecialchars_decode}</p>
 			</div>
 		</article>
 		<div id="comments">

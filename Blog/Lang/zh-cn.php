@@ -104,6 +104,8 @@ return array(
 	'error_success'=>'你还没有改动',
 	'_addOK_'=>'增加分类成功',
 	'_addNO_'=>'增加分类失败',
+	'_biaozhi_'=>'标识',
+	'_jibie_'=>'级别',
 	
 	
 	/*Picture*/

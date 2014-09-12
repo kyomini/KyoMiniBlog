@@ -1,8 +1,18 @@
 ﻿<section class="widget">
   <h3 class="widget-title">部落格分類</h3>
   <ul class="widget-list">
-    <foreach name='Cate' item='Cate'>
-      <li><a href="{:U('/list/'.$Cate['cid'])}">{$Cate.cname}</a></li>
+
+    <foreach name='cate' item='v'>
+          <li><a href="__ROOT__/list/{$v.cid}">{$v.cname}</a>
+              <if condition='$v["child"]'>
+                   <ul>
+                       <foreach name='v.child' item='k'>
+                              <li><a href="{:U('/list/'.$k['cid'])}">{$k.cname}</a></li>
+                       </foreach>
+                   </ul>
+               </if> 
+          </li>
     </foreach>
+
   </ul>
 </section>

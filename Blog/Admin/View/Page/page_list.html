@@ -1,0 +1,55 @@
+<include file="Public:Header" />
+<body>
+<include file="Public:Nav" />
+<div class="container"> 
+  <!--内容开始-->
+  
+  <div class="page-header">
+    <h3>{$Think.lang.One_page}</h3>
+  </div>
+  <div class="input-append">
+    <a href="{:U('addpage')}" class="btn btn-info ">{$Think.lang.Add_onepage}</a>
+  </div>
+  <div class="MiniBox2">
+  <form method="post" action="__URL__/del">
+    <table width="100%" border="0" class="table table-hover" id="list" >
+      <tr>
+        <td width="5%" ><input type="checkbox"  id="all">
+         </td>
+        <td width="10%"><b>ID</b></td>
+        <td width="40%" class="biaoti" ><b>{$Think.lang._description_}</b></td>
+        <td width="10%" class="biaoti"><b>标识</b></td>
+        <td width="15%"><b>{$Think.lang._operation_}</b></td>
+      </tr>
+      <foreach name='one' item='one'>
+        <tr>
+          <td><input type="checkbox"  value="{$one.pid}" name="{$one.pid}"></td>
+          <td>{$one.pid}</td>
+          <td class="biaoti">{$one.title}</td>
+          <td class="biaoti">{$one.urlname}</td>
+          <td><span onclick="location.href='__URL__/mod/id/{$one.pid}'">{$Think.lang._editor_}</span> <span onclick="if(confirm('{$Think.lang._editor_}?'))window.location.href='__URL__/del/id/{$one.pid}'">{$Think.lang._del_}</span> </td>
+        </tr>
+      </foreach>
+      <tr>
+        <td colspan="5" class="biaoti" style="padding-top:25px;"><button type="submit" class="btn btn-success">{$Think.lang._del_}</button>
+          <ul class="pagination">
+
+            {$page}
+          </ul></td>
+      </tr>
+    </table>
+    </form>
+  </div>
+  
+  <!--内容结束--> 
+  <include file="Public:Copy" /> </div>
+
+<script>
+    $("#all").on('click', function() {
+    $(this)
+    .parents('table') 
+    .find(':checkbox')                     
+    .prop('checked', $(this).is(':checked'));
+})
+    </script>
+</html>

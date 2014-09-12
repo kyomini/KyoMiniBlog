@@ -1,0 +1,165 @@
+<include file="Public:Header" />
+<body>
+<include file="Public:Nav" /><span id="result"></span>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="container">
+  <!--内容开始-->
+  
+  <div class="page-header">
+  <h3>文章</h3>
+
+  </div>
+    <div class="input-append">
+         <a href="{:U('Article_add')}" class="btn btn-info sousuo">{$Think.lang.Write_articler}</a>
+         
+</div>
+  <div class="MiniBox2">
+  
+  
+  <form method="post" action="__URL__/del">
+  <table width="100%" border="0" class="table table-hover" id="list" >
+  <tr>
+  <td width="5%" ><input type="checkbox"  id="all">
+         </td>
+    <td width="5%"><b>ID</b></td>
+    <td width="55%" class="biaoti"><b>{$Think.lang._title_}</b></td>
+    <td width="10%" ><b>{$Think.lang.Classify}</b></td>
+    <td width="15%" ><b>{$Think.lang._top_}</b></td>
+    <td width="15%"><b>{$Think.lang._operation_}</b></td>
+  </tr>
+    <foreach name='list' item='vo'>
+  <tr>
+            <td><input type="checkbox"  value="{$vo.aid}" name="{$vo.aid}"></td>
+
+    <td>{$vo.aid}</td>
+    <td  class="biaoti">{$vo.title}</td>
+    <td>{$vo.cname}</td>
+    
+    
+   <!-- http://127.0.0.1/AimeeBlog/admin.php/Article/hot/hot/2/id/1
+    <a href="{:U('Article/hot?hot=2&id='.$vo["aid"])}">默认</a>
+-->
+    
+    
+    
+    
+    <td>
+   <if condition="$vo.hot eq '1'">
+                        <a href="__URL__/hot/hot/2/id/{$vo.aid}">{$Think.lang._default_}</a>
+                        <else />
+                        <a href="__URL__/hot/hot/1/id/{$vo.aid}" >{$Think.lang._top_}</a>
+     </if>
+    
+    </td>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <td class="hand">
+    <span onclick="location.href='__URL__/mod/id/{$vo.aid}'">{$Think.lang._editor_}</span>
+   <span onclick="if(confirm('{$Think.lang._suredel_}'))window.location.href='__URL__/del/id/{$vo.aid}'">{$Think.lang._del_}</span>
+    </td>
+  </tr>
+  </foreach>
+      <tr>
+        <td colspan="6" class="biaoti" style="padding-top:25px;"><button type="submit" class="btn btn-success">{$Think.lang.batchdell_del}</button>
+        
+            {$page}
+         </td>
+      </tr>
+</table>
+</form>
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--内容结束-->
+    <include file="Public:Copy" />
+
+  </div>
+  
+<script>
+    $("#all").on('click', function() {
+    $(this)
+    .parents('table') 
+    .find(':checkbox')                     
+    .prop('checked', $(this).is(':checked'));
+})
+    </script>
+
+
+
+  
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+</html>

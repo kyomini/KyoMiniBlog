@@ -1,0 +1,89 @@
+<include file="Public:Header" />
+<body>
+<include file="Public:Nav" />
+<div class="container"> 
+  
+  <div class="page-header">
+    <h3>{$Think.lang.Reply_message}</h3>
+  </div>
+  <div class="MiniBox2">
+    <form role="form" method="post" action="{:U('update')}" >
+      <textarea class="form-control miniinput3" rows="7" name="reply" placeholder="{$Think.lang.Quick_reply}">{$conn.reply}</textarea>
+      <input type="hidden" name="coid" value="{$conn.coid}">
+      <input type="hidden" name="respond" value="{$Think.lang._Replied_}">
+      <button type="submit" class="btn btn-info minibtn">{$Think.lang._Reply_}</button>
+    </form>
+  </div>
+  
+  <include file="Public:Copy" /> </div>
+<script charset="utf-8" src="[!Public]js/bootstrap-datetimepicker.min.js"></script> 
+<script src="[!Public]js/locales/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script> 
+<script charset="utf-8" src="[!Public]editor/kindeditor.js"></script> 
+<script charset="utf-8" src="[!Public]editor/lang/zh_CN.js"></script> 
+<script>
+          var editor;
+			KindEditor.ready(function(K) {
+				
+				
+				editor = K.create('textarea[name="content"]', {
+				uploadJson : '[!Public]editor/php/upload_json.php',
+				fileManagerJson : '[!Public]editor/php/file_manager_json.php',               
+				themeType : 'simple',
+				allowFileManager : false,
+				allowPreviewEmoticons : true,//远程图片关闭
+				allowImageUpload : true, //显示上传图片按钮
+				afterBlur:function(){this.sync();},
+				items : ['source', '|', 'fullscreen', 'undo', 'redo', 'print', 'cut', 'copy', 'paste',
+'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',
+'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript',
+'superscript',
+'title', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
+'italic', 'underline', 'strikethrough', 'removeformat', '|', 'image',
+'flash', 'media', 'advtable',  'emoticons', 'link', 'unlink', 
+'|', 'baidumap','code','about'],
+
+});
+});
+</script> 
+<script type="text/javascript">
+    $(".form_datetime").datetimepicker({
+		format: 'yyyy-mm-dd hh:ii',
+		 language:'zh-CN',
+		  weekStart:1,
+        todayBtn:1,
+        autoclose:1,
+        todayHighlight:1,
+        startView:2,
+        minView:2,
+        forceParse:0
+		});
+
+
+      
+
+
+</script> 
+<script>
+
+ $("#reset").click(function(){
+ $("input, #zhaiyao").val(""); 
+ editor.html('');
+
+ 
+  });
+
+ $("#write_high_open").click(function(){
+ $("#write_high").fadeIn(); 
+ $("#write_high_open").hide(1); 
+ $("#write_high_close").show(1); 
+  });
+  
+  $("#write_high_close").click(function(){
+ $("#write_high").hide(); 
+ $("#write_high_close").hide(1); 
+ $("#write_high_open").show(1); 
+  });
+  
+    
+</script>
+</html>
