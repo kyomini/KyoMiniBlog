@@ -6,7 +6,7 @@ class SettingsController extends CommonController {
         $this->display('index');
     }
     public function Update() {
-        $confpath = ThinkStorage::put(APP_PATH . 'Common/Conf/Settings.php', '<?php return  ' . var_export($_POST, true) . ';', 'F');
+        $confpath = \Think\Storage::put(APP_PATH . 'Common/Conf/Settings.php', '<?php return  ' . var_export($_POST, true) . ';', 'F');
         if ($confpath == true) {
             $this->success('<p>修改配置成功！</p>');
         } else {

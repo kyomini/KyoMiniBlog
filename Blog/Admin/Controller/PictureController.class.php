@@ -7,7 +7,7 @@ class PictureController extends CommonController {
         $this->display('index');
     }
     public function Update() {
-        $Picture = ThinkStorage::put(APP_PATH . 'Common/Conf/Picture.php', '<?php return  ' . var_export($_POST, true) . ';', 'F');
+        $Picture = \Think\Storage::put(APP_PATH . 'Common/Conf/Picture.php', '<?php return  ' . var_export($_POST, true) . ';', 'F');
         if ($Picture == true) {
             $this->success('<p>设置成功！</p>');
         } else {

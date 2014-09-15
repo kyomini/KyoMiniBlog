@@ -6,7 +6,7 @@ class TemplateController extends CommonController {
         $this->display();
     }
     public function Update() {
-        $return = ThinkStorage::put(APP_PATH . 'Common/Conf/Temp.php', '<?php return  ' . var_export($_POST, true) . ';', 'F');
+        $return = \Think\Storage::put(APP_PATH . 'Common/Conf/Temp.php', '<?php return  ' . var_export($_POST, true) . ';', 'F');
         if ($return == true) {
             $this->success('<p>' . L('success') . '</p>');
         } else {
